@@ -1,4 +1,4 @@
-﻿PID,Name,Price,Category,Quantity,Nutritional Unit,Calories (g),Protein (g),Total_Fat (g),Saturated_Fat (g),Carbohydrates (g),Sugar (g),Fiber (g),Sodium (mg)
+PID,Name,Price,Category,Quantity,Nutritional Unit,Calories (g),Protein (g),Total_Fat (g),Saturated_Fat (g),Carbohydrates (g),Sugar (g),Fiber (g),Sodium (mg)
 1,Spaghetti 500g EXTRA,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
 2,FUSILLI 500g Garrido,115.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
 3,NIDI 500G محبوبة,180.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0

@@ -120,7 +120,17 @@ NUTRITION_DB = {
     'dried_mango':       (319, 2.0, 0.7, 0.0, 82.0, 66.3,  2.4, 162),
     'dried_prune':       (240, 2.2, 0.4, 0.0, 63.9, 38.1,  7.1,   2),
     'raisin':            (299, 3.1, 0.5, 0.2, 79.2, 59.2,  4.5,  11),
-
+    # ── Viande ─────────────────────────────────────────────────────────
+    'poulet':            (165, 31.0,  3.6,  1.0,  0.0,  0.0,  0.0,  74),
+    'boeuf':             (250, 26.0, 15.0,  6.0,  0.0,  0.0,  0.0,  72),
+    'mouton':            (294, 24.5, 21.0,  9.0,  0.0,  0.0,  0.0,  78),
+    'agneau':            (271, 25.0, 18.5,  8.5,  0.0,  0.0,  0.0,  75),
+    'oeuf':              (155, 13.0, 11.0,  3.3,  1.1,  1.1,  0.0, 124),
+    'sardine':           (208, 24.6, 11.5,  1.5,  0.0,  0.0,  0.0, 307),
+    'rouget':            (109, 18.6,  3.5,  0.6,  0.0,  0.0,  0.0,  65),
+    'daurade':           (128, 21.5,  4.5,  1.1,  0.0,  0.0,  0.0,  61),
+    'merlan':            ( 90, 18.0,  1.3,  0.2,  0.0,  0.0,  0.0,  73),
+    
     'other':             (np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan)
 }
 PRODUCE_NAME_MAP = {
@@ -218,4 +228,13 @@ PRODUCE_NAME_MAP = {
     'marron':     'chestnut',
     'noisette':   'hazelnut',
     'pistache':   'pistachio',
+    'poulet': 'poulet',
+    'boeuf': 'boeuf',
+    'mouton': 'mouton',
+    'agneau': 'agneau',
+    'oeuf': 'oeuf',
+    'sardine': 'sardine',
+    'rouget': 'rouget',
+    'daurade': 'daurade',
+    'merlan': 'merlan',
 }
