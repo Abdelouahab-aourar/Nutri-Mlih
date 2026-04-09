@@ -1,0 +1,277 @@
+"""
+Recipe Consolidation Module
+
+This module consolidates recipes from multiple team members into final CSV files.
+Each team member provides a CSV file with recipes specifying product PIDs directly.
+"""
+
+import pandas as pd
+import numpy as np
+from pathlib import Path
+import glob
+
+class RecipeConsolidator:
+    """Manages the consolidation of recipes from multiple sources using direct PID input."""
+    
+    def __init__(self, products_csv="data/products.csv", recipes_input_dir="data/recipes_input"):
+        """
+        Initialize the consolidator.
+        
+        Args:
+            products_csv: Path to the products data
+            recipes_input_dir: Directory where team members place their recipe CSVs
+        """
+        self.products_df = pd.read_csv(products_csv)
+        self.recipes_input_dir = Path(recipes_input_dir)
+        
+        # Create PID-indexed map for quick lookup
+        self.products_by_pid = {}
+        for _, row in self.products_df.iterrows():
+            self.products_by_pid[int(row['PID'])] = {
+                'PID': row['PID'],
+                'Name': row['Name'],
+                'Price': row['Price'],
+                'Nutritional Unit': row['Nutritional Unit'],
+                'Calories (g)': row['Calories (g)'],
+                'Quantity': row['Quantity'],
+                'Category': row['Category']
+            }
+        
+        self.recipes_list = []
+        self.validation_errors = []
+        self.validation_warnings = []
+    
+    def load_individual_recipes(self):
+        """
+        Load all recipe files from the input directory.
+        Expected format: data/recipes_input/person1.csv, person2.csv, etc.
+        CSV columns: Name, Type, Category, PIDs, Quantities
+        PIDs and Quantities are semicolon-separated.
+        """
+        if not self.recipes_input_dir.exists():
+            self.recipes_input_dir.mkdir(exist_ok=True)
+            print(f"Created {self.recipes_input_dir} directory")
+            return
+        
+        recipe_files = glob.glob(str(self.recipes_input_dir / "*.csv"))
+        
+        if not recipe_files:
+            print(f"No recipe files found in {self.recipes_input_dir}")
+            return
+        
+        print(f"Found {len(recipe_files)} recipe file(s)")
+        
+        for file in sorted(recipe_files):
+            try:
+                df = pd.read_csv(file)
+                person_name = Path(file).stem
+                self._process_recipe_file(df, person_name)
+            except Exception as e:
+                self.validation_errors.append(f"Error reading {file}: {str(e)}")
+    
+    def _process_recipe_file(self, df, person_name):
+        """Process a single recipe file from a team member."""
+        required_cols = ['Name', 'Type', 'Category', 'PIDs', 'Quantities']
+        
+        # Check required columns
+        missing_cols = [col for col in required_cols if col not in df.columns]
+        if missing_cols:
+            self.validation_errors.append(
+                f"{person_name}: Missing columns: {missing_cols}"
+            )
+            return
+        
+        for idx, row in df.iterrows():
+            recipe_name = str(row['Name']).strip()
+            recipe_type = str(row['Type']).strip()
+            category = str(row['Category']).strip()
+            pids_str = str(row['PIDs']).strip()
+            quantities_str = str(row['Quantities']).strip()
+            
+            # Parse PIDs and quantities
+            try:
+                pids = [int(p.strip()) for p in pids_str.split(';')]
+                quantities = [q.strip() for q in quantities_str.split(';')]
+            except ValueError as e:
+                self.validation_warnings.append(
+                    f"{person_name} - {recipe_name}: Invalid PID format: {e}"
+                )
+                continue
+            
+            if len(pids) != len(quantities):
+                self.validation_warnings.append(
+                    f"{person_name} - {recipe_name}: "
+                    f"Mismatch between PIDs ({len(pids)}) and quantities ({len(quantities)})"
+                )
+                continue
+            
+            # Validate and collect ingredients
+            recipe_details = {
+                'name': recipe_name,
+                'type': recipe_type,
+                'category': category,
+                'person': person_name,
+                'ingredients': []
+            }
+            
+            valid_recipe = True
+            for pid, quantity in zip(pids, quantities):
+                if pid not in self.products_by_pid:
+                    self.validation_warnings.append(
+                        f"{person_name} - {recipe_name}: PID {pid} not found in products"
+                    )
+                    valid_recipe = False
+                    continue
+                
+                product_info = self.products_by_pid[pid]
+                recipe_details['ingredients'].append({
+                    'PID': pid,
+                    'product_name': product_info['Name'],
+                    'quantity': quantity,
+                    'price': product_info['Price'],
+                    'nutritional_unit': product_info['Nutritional Unit'],
+                    'calories_per_unit': product_info['Calories (g)']
+                })
+            
+            if valid_recipe and recipe_details['ingredients']:
+                self.recipes_list.append(recipe_details)
+    
+    def calculate_totals(self):
+        """
+        Calculate total_price and provided_calories for each recipe.
+        Assumes quantities are in the same unit as product quantities.
+        """
+        for recipe in self.recipes_list:
+            total_price = 0
+            total_calories = 0
+            
+            for ingredient in recipe['ingredients']:
+                # Extract numeric quantity from the quantity string (e.g., "100 g" -> 100)
+                try:
+                    qty_value = float(ingredient['quantity'].split()[0])
+                except:
+                    self.validation_warnings.append(
+                        f"Could not parse quantity '{ingredient['quantity']}' "
+                        f"in recipe '{recipe['name']}'"
+                    )
+                    continue
+                
+                # Calculate price (proportional to quantity)
+                # Assuming product price is per full quantity
+                product_qty_value = float(
+                    self.products_by_pid[ingredient['PID']]['Quantity'].split()[0]  # Extract number from "100 g/ml"
+                
+                )
+                
+                price = ingredient['price'] * (qty_value / product_qty_value)
+                total_price += price
+                
+                # Calculate calories (per 100g/ml basis)
+                product_nutritional_unit = float(
+                    ingredient['nutritional_unit'].split()[-2]  # Extract number from "100 g/ml"
+                )
+                calories = ingredient['calories_per_unit'] * (qty_value / product_nutritional_unit)
+                total_calories += calories
+            
+            recipe['total_price'] = round(total_price, 2)
+            recipe['provided_calories'] = round(total_calories, 2)
+    
+    def consolidate(self):
+        """Main consolidation process."""
+        print("=" * 60)
+        print("RECIPE CONSOLIDATION PROCESS")
+        print("=" * 60)
+        
+        # Step 1: Load recipes
+        print("\n1. Loading individual recipe files...")
+        self.load_individual_recipes()
+        print(f"   Loaded {len(self.recipes_list)} recipes")
+        
+        # Step 2: Calculate totals
+        print("\n2. Calculating totals for each recipe...")
+        self.calculate_totals()
+        
+        # Step 3: Generate output dataframes
+        print("\n3. Generating output CSVs...")
+        recipes_df, recipe_ingredient_df = self._generate_output_dfs()
+        
+        # Step 4: Print validation report
+        self._print_validation_report()
+        
+        return recipes_df, recipe_ingredient_df
+    
+    def _generate_output_dfs(self):
+        """Generate the final DataFrame objects."""
+        recipes_data = []
+        recipe_ingredients_data = []
+        
+        for rid, recipe in enumerate(self.recipes_list, start=1):
+            recipes_data.append({
+                'RID': rid,
+                'Name': recipe['name'],
+                'type': recipe['type'],
+                'Category': recipe['category'],
+                'total_price': recipe.get('total_price', 0),
+                'provided_calories': recipe.get('provided_calories', 0)
+            })
+            
+            for ingredient in recipe['ingredients']:
+                recipe_ingredients_data.append({
+                    'PID': ingredient['PID'],
+                    'RID': rid,
+                    'Quantity': ingredient['quantity']
+                })
+        
+        recipes_df = pd.DataFrame(recipes_data)
+        recipe_ingredients_df = pd.DataFrame(recipe_ingredients_data)
+        
+        return recipes_df, recipe_ingredients_df
+    
+    def _print_validation_report(self):
+        """Print validation summary."""
+        print("\n4. Validation Report:")
+        print(f"   ✓ Recipes consolidated: {len(self.recipes_list)}")
+        print(f"   ⚠ Warnings: {len(self.validation_warnings)}")
+        print(f"   ✗ Errors: {len(self.validation_errors)}")
+        
+        if self.validation_warnings:
+            print("\n   Warnings:")
+            for warning in self.validation_warnings[:10]:
+                print(f"   - {warning}")
+            if len(self.validation_warnings) > 10:
+                print(f"   ... and {len(self.validation_warnings) - 10} more")
+        
+        if self.validation_errors:
+            print("\n   Errors:")
+            for error in self.validation_errors:
+                print(f"   - {error}")
+    
+    def export_csv(self, recipes_df, recipe_ingredients_df, 
+                   recipes_output="data/recipes.csv",
+                   ingredients_output="data/recipe_ingredient.csv"):
+        """Export consolidated data to CSV files."""
+        recipes_df.to_csv(recipes_output, index=False, encoding='utf-8-sig')
+        recipe_ingredients_df.to_csv(ingredients_output, index=False, encoding='utf-8-sig')
+        
+        print(f"\n5. Export Complete:")
+        print(f"   ✓ {recipes_output} ({len(recipes_df)} recipes)")
+        print(f"   ✓ {ingredients_output} ({len(recipe_ingredients_df)} items)")
+
+
+def run_consolidation(products_csv="data/products.csv", 
+                     recipes_input_dir="data/recipes_input"):
+    """
+    Run the complete recipe consolidation process.
+    
+    Args:
+        products_csv: Path to products data
+        recipes_input_dir: Directory with team member recipe CSVs
+    
+    Returns:
+        Tuple of (recipes_df, recipe_ingredients_df)
+    """
+    consolidator = RecipeConsolidator(products_csv, recipes_input_dir)
+    recipes_df, recipe_ingredients_df = consolidator.consolidate()
+    consolidator.export_csv(recipes_df, recipe_ingredients_df)
+    
+    return recipes_df, recipe_ingredients_df

@@ -1,4 +1,4 @@
-PID,Name,Price,Category,Quantity,Nutritional Unit,Calories (g),Protein (g),Total_Fat (g),Saturated_Fat (g),Carbohydrates (g),Sugar (g),Fiber (g),Sodium (mg)
+﻿PID,Name,Price,Category,Quantity,Nutritional Unit,Calories (g),Protein (g),Total_Fat (g),Saturated_Fat (g),Carbohydrates (g),Sugar (g),Fiber (g),Sodium (mg)
 1,Spaghetti 500g EXTRA,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
 2,FUSILLI 500g Garrido,115.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
 3,NIDI 500G محبوبة,180.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
@@ -307,3 +307,12 @@ PID,Name,Price,Category,Quantity,Nutritional Unit,Calories (g),Protein (g),Total
 306,Semoule Grosse Mama 2kg,170.0,Semoulerie et Farine,2000 g,per 100 g,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
 307,Semoule Moyenne Mama 1kg,90.0,Semoulerie et Farine,1000 g,per 100 g,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
 308,Semoule Moyenne Mama 2kg,235.0,Semoulerie et Farine,2000 g,per 100 g,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
+309,Poulet,400.0,Viande,1000 g,per 100 g,165.0,31.0,3.6,1.0,0.0,0.0,0.0,74.0
+310,Boeuf,3200.0,Viande,1000 g,per 100 g,250.0,26.0,15.0,6.0,0.0,0.0,0.0,72.0
+311,Mouton,2500.0,Viande,1000 g,per 100 g,294.0,24.5,21.0,9.0,0.0,0.0,0.0,78.0
+312,Agneau,2800.0,Viande,1000 g,per 100 g,271.0,25.0,18.5,8.5,0.0,0.0,0.0,75.0
+313,Oeuf,15.0,Viande,50 g,per 100 g,155.0,13.0,11.0,3.3,1.1,1.1,0.0,124.0
+314,Sardine,1000.0,Poisson,1000 g,per 100 g,208.0,24.6,11.5,1.5,0.0,0.0,0.0,307.0
+315,Rouget,1500.0,Poisson,1000 g,per 100 g,109.0,18.6,3.5,0.6,0.0,0.0,0.0,65.0
+316,Daurade,1700.0,Poisson,1000 g,per 100 g,128.0,21.5,4.5,1.1,0.0,0.0,0.0,61.0
+317,Merlan,2200.0,Poisson,1000 g,per 100 g,90.0,18.0,1.3,0.2,0.0,0.0,0.0,73.0
