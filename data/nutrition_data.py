@@ -130,6 +130,17 @@ NUTRITION_DB = {
     'rouget':            (109, 18.6,  3.5,  0.6,  0.0,  0.0,  0.0,  65),
     'daurade':           (128, 21.5,  4.5,  1.1,  0.0,  0.0,  0.0,  61),
     'merlan':            ( 90, 18.0,  1.3,  0.2,  0.0,  0.0,  0.0,  73),
+    # manually added data
+    'saumon':            (208, 20.4, 13.4,  3.1,  0.0,  0.0,  0.0,  59),
+    'crevette':          ( 99, 24.0,  0.3,  0.1,  0.2,  0.0,  0.0, 111),
+    'yaourt_nature':     ( 61,  3.5,  3.3,  2.1,  4.7,  4.7,  0.0,  46),
+    'huile_olive':       (884,  0.0,100.0, 13.8,  0.0,  0.0,  0.0,   2),
+    'sauce_soja':        ( 53,  8.1,  0.1,  0.0,  4.9,  0.9,  0.1,5493),
+    'miel':              (304,  0.3,  0.0,  0.0, 82.4, 82.1,  0.2,   4),
+    'whey_blue_lab':     (400, 75.0,  7.0,  3.0,  8.0,  4.0,  1.0, 150),
+    'avoine':            (389, 16.9,  6.9,  1.2, 66.3,  1.1, 10.6,   2),
+    'cannelle':          (247,  4.0,  1.2,  0.3, 80.6,  2.2, 53.1,  10),
+    
     
     'other':             (np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan)
 }
@@ -237,4 +248,13 @@ PRODUCE_NAME_MAP = {
     'rouget': 'rouget',
     'daurade': 'daurade',
     'merlan': 'merlan',
+    'saumon':         'saumon',
+    'crevette':       'crevette',
+    "huile d'olive":  'huile_olive',
+    'sauce de soja':  'sauce_soja',
+    'yaourt nature':  'yaourt_nature',
+    'miel':           'miel',
+    'protein powder': 'whey_blue_lab',
+    'avoine':         'avoine',
+    'cannelle':       'cannelle',
 }
