@@ -1,318 +1,327 @@
-﻿PID,Name,Price,Category,Quantity,Nutritional Unit,Calories (g),Protein (g),Total_Fat (g),Saturated_Fat (g),Carbohydrates (g),Sugar (g),Fiber (g),Sodium (mg)
-1,Spaghetti 500g EXTRA,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-2,FUSILLI 500g Garrido,115.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-3,NIDI 500G محبوبة,180.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-4,GNOCCHETTI  500G البركة,110.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-5,CHAKHCHOUKHA 500G البركة,110.0,Pâtes et Couscous,500 g,per 100 g,25.0,1.3,0.1,0.0,5.8,3.2,2.5,18.0
-6,LASAGNE 500G البركة,300.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-7,FLAMINGO 500G البركة,85.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-8,PLOMB 500G البركة,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-9,COUSCOUS GROS 1KG البركة,170.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-10,COUSCOUS MOYEN 1KG البركة,170.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-11,COUSCOUS FIN  1KG البركة,170.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-12,SPAGHETTI 7 500G البركة,85.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-13,COUDE N4 500G البركة,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-14,VERMICELLE 500G البركة,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-15,COQUILLETTES 500G البركة,85.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-16,SPAGHETTI 500G SAFINA,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-17,LANGUES D’OISEAUX 500g Safina,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-18,VERMICELLES 500g Safina,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-19,COUDES 8 Safina 500g,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-20,COUDES 6 Safina 500g,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-21,COUDES 4 Safina 500g,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-22,COUSCOUS GROS 1KG عمور,140.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-23,COUSCOUS MOYEN 1KG عمور,140.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-24,MACCARONI 4 EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-25,ESCARGOT 500G EXTRA,95.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-26,PLOMBS 1 KG AMOR BENAMOR,150.0,Pâtes et Couscous,1000 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-27,COUSCOUS MOYEN 1KG AMOR BENAMOR,180.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-28,COUSCOUS GROS 1KG Safina,185.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-29,LINGUINE 500G Sosémie,85.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-30,CHAKHCHOUKHA 1KG MAMA,250.0,Pâtes et Couscous,1000 g,per 100 g,25.0,1.3,0.1,0.0,5.8,3.2,2.5,18.0
-31,Penné aux Légumes 400G محبوبة,145.0,Pâtes et Couscous,400 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-32,ACHKAL 500G محبوبة,55.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-33,SPAGHETTI au Blé Complet 500G محبوبة,100.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-34,NOUILLES Carrés 500G تريدة محبوبة,65.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-35,Grand ESCARGOT 500G محبوبة,65.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-36,NOUILLES 500G محبوبة,65.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-37,SPAGHETTI 500G محبوبة,65.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-38,Petit PLOMB 500G محبوبة,65.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-39,FUSILLI 500G محبوبة,65.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-40,COUSCOUS FIN SIM 1KG,135.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-41,COUSCOUS FIN Safina 1KG,170.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-42,COUSCOUS MOYEN Safina 1KG,170.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-43,LINGUINE MAMA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-44,PLOMB MAMA 500G,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-45,COUDE PETIT MAMA 500G,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-46,COUSCOUS GROS MAMA 1KG,175.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-47,COUSCOUS D’ORGE MAMA 900G,230.0,Pâtes et Couscous,900 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-48,COUSCOUS MOYEN MAMA 1KG,175.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-49,COUSCOUS COMPLET MAMA 900G,160.0,Pâtes et Couscous,900 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-50,COUDE MOYEN MAMA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-51,TLITLI SIM 500G,60.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-52,VERMICELLE  SIM 500G,60.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-53,SPAGHETTI  SIM 500G,60.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-54,COUSCOUS MOYEN 1KG SIM,135.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-55,COUDE GARRIDO CURVE LISCE 3,115.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-56,FARFALLE EXTRA 500G,155.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-57,INTEGRALE EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-58,FUSILE AU BLE COMPLET 500G INTEGRALE EXTRA,95.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-59,COUSCOUS MOYEN EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-60,COUSCOUS FINE EXTRA 1KG,185.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-61,COUDE N 5 500G EXTRA,95.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-62,TRIDA EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-63,TAGLIATELLE 500G EXTRA,90.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-64,PLOMB EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-65,MACARONI 4 EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-66,CHEVEUX DANGE EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-67,COUDE6 EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-68,COUDE3 EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
-69,COUSCOUS FIN MAMA 1KG,175.0,Pâtes et Couscous,1000 g,per 100 g,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
-70,Fromage Fondu Walid Sans Gluten,605.0,Produits Laitiers,700 g,per 100 g,280.0,12.0,23.0,15.0,6.0,6.0,0.0,1000.0
-71,lait candia silhouette,130.0,Produits Laitiers,1000 ml,per 100 ml,35.0,3.4,0.1,0.1,5.0,5.0,0.0,44.0
-72,MARGARINE MANI 500G,180.0,Produits Laitiers,500 g,per 100 g,717.0,0.1,81.0,15.0,0.6,0.0,0.0,700.0
-73,MARGARINE FLEURIAL 250G CEVITAL,95.0,Produits Laitiers,250 g,per 100 g,717.0,0.1,81.0,15.0,0.6,0.0,0.0,700.0
-74,MARGARINE FLEURIAL 250G VEGETALIS,115.0,Produits Laitiers,250 g,per 100 g,717.0,0.1,81.0,15.0,0.6,0.0,0.0,700.0
-75,LAIT CANDIA 1LITRE,125.0,Produits Laitiers,1000 ml,per 100 ml,65.0,3.3,3.6,2.3,4.7,4.7,0.0,43.0
-76,CANDY CHOCO 200ML,50.0,Produits Laitiers,200 ml,per 100 ml,80.0,3.0,2.0,1.3,11.0,10.0,0.5,60.0
-77,CANDY CHOCO 1L,190.0,Produits Laitiers,1000 ml,per 100 ml,80.0,3.0,2.0,1.3,11.0,10.0,0.5,60.0
-78,LAIT CANDIA 1LITRE ENTIER,150.0,Produits Laitiers,1000 ml,per 100 ml,65.0,3.3,3.6,2.3,4.7,4.7,0.0,43.0
-79,HARICOT ROUGE 1KG Garrido,500.0,Légumes Secs,1000 g,per 100 g,337.0,22.5,1.3,0.2,62.0,3.0,15.2,12.0
-80,Pois Cassés 1kg Garrido,330.0,Légumes Secs,1000 g,per 100 g,341.0,24.5,1.2,0.2,60.0,2.0,25.0,15.0
-81,RIZ étuvé 1KG La Belle,155.0,Légumes Secs,1000 g,per 100 g,360.0,6.7,0.7,0.2,80.0,0.1,1.3,5.0
-82,LENTILLES Borjot 1Kg,250.0,Légumes Secs,1000 g,per 100 g,353.0,24.6,1.1,0.2,63.4,2.0,10.7,6.0
-83,LENTILLES  BORJOT 500G,135.0,Légumes Secs,500 g,per 100 g,353.0,24.6,1.1,0.2,63.4,2.0,10.7,6.0
-84,POIS CHICHE BORJOT 500G,215.0,Légumes Secs,500 g,per 100 g,378.0,20.5,6.0,0.6,63.0,10.7,12.2,24.0
-85,HARICOTS BORJOT 500G,185.0,Légumes Secs,500 g,per 100 g,337.0,22.5,1.3,0.2,62.0,3.0,15.2,12.0
-86,LENTILLE GARRIDO 1KG,385.0,Légumes Secs,1000 g,per 100 g,353.0,24.6,1.1,0.2,63.4,2.0,10.7,6.0
-87,LENTILLES 1KG GARRIDO,385.0,Légumes Secs,1000 g,per 100 g,353.0,24.6,1.1,0.2,63.4,2.0,10.7,6.0
-88,LENTILLE ROUGE GARRIDO 1KG,350.0,Légumes Secs,1000 g,per 100 g,353.0,24.6,1.1,0.2,63.4,2.0,10.7,6.0
-89,HARICOTS ROUGE 500G GARRIDO,255.0,Légumes Secs,500 g,per 100 g,337.0,22.5,1.3,0.2,62.0,3.0,15.2,12.0
-90,HARICOT GARRIDO 500G,225.0,Légumes Secs,500 g,per 100 g,337.0,22.5,1.3,0.2,62.0,3.0,15.2,12.0
-91,POIS CHICHE GARRIDO 500G,250.0,Légumes Secs,500 g,per 100 g,378.0,20.5,6.0,0.6,63.0,10.7,12.2,24.0
-92,Substitut de Sucre en Poudre MagiLight,120.0,Cafés et Sucres,50 g,per 100 g,400.0,0.0,0.0,0.0,99.8,99.8,0.0,1.0
-93,Granior Chicorée Café Solubles,535.0,Cafés et Sucres,200 g,per 100 g,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
-94,Café moulu Famico Exclusive,250.0,Cafés et Sucres,250 g,per 100 g,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
-95,Café Boukhari Mélange arabica et robusta,250.0,Cafés et Sucres,250 g,per 100 g,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
-96,Chicorée mix soluble de Grandos,680.0,Cafés et Sucres,100 g,per 100 g,93.07692307692308,0.07692307692307691,0.0,0.0,23.03076923076923,23.03076923076923,0.0,1.7692307692307692
-97,Boisson instantanée Chicorée de City One,210.0,Cafés et Sucres,70 g,per 100 g,93.07692307692308,0.07692307692307691,0.0,0.0,23.03076923076923,23.03076923076923,0.0,1.7692307692307692
-98,Primo Café 250 G,250.0,Cafés et Sucres,250 g,per 100 g,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
-99,Café D’Or Moulu 250 Gr,250.0,Cafés et Sucres,250 g,per 100 g,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
-100,SUCRE CEVITAL 2KG,190.0,Cafés et Sucres,2000 g,per 100 g,400.0,0.0,0.0,0.0,99.8,99.8,0.0,1.0
-101,SUCRE CEVITAL 1KG,95.0,Cafés et Sucres,1000 g,per 100 g,400.0,0.0,0.0,0.0,99.8,99.8,0.0,1.0
-102,CAFE OSCAR 250G TRESOR NOIR,250.0,Cafés et Sucres,250 g,per 100 g,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
-103,CAFE MOULU CAFESTA 250G,250.0,Cafés et Sucres,250 g,per 100 g,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
-104,CAFE BONAL 250G,250.0,Cafés et Sucres,250 g,per 100 g,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
-105,CAFE  AROMA 250G,250.0,Cafés et Sucres,250 g,per 100 g,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
-106,CAFE AROMA FAMILIAL 250G,250.0,Cafés et Sucres,250 g,per 100 g,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
-107,PATE A TARTINER EL MORDJANE 700G,860.0,Conserves,700 g,per 100 g,540.0,6.0,31.0,10.0,57.0,55.0,3.0,50.0
-108,Tomates CAB Hello 800 g,330.0,Conserves,800 g,per 100 g,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
-109,THON MARICIANA A LA TOMATE 400G,610.0,Conserves,400 g,per 100 g,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
-110,THON ATLANTICO 160G A LA TOMATE,235.0,Conserves,160 g,per 100 g,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
-111,THON MARINARA 140G HUILE VEGETALE,199.0,Conserves,140 g,per 100 g,200.0,26.0,10.0,2.0,0.0,0.0,0.0,400.0
-112,THON RICAMAR 160G NATUREL,305.0,Conserves,160 g,per 100 g,110.0,26.0,1.0,0.2,0.0,0.0,0.0,400.0
-113,THON MARATUN A LA TOMATE 160G,255.0,Conserves,160 g,per 100 g,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
-114,THON A L HUILE RICAMAR 160G,255.0,Conserves,160 g,per 100 g,200.0,26.0,10.0,2.0,0.0,0.0,0.0,400.0
-115,THON A LA TOMATE RICAMAR 160G,250.0,Conserves,160 g,per 100 g,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
-116,TRIP THON RICAMAR A LA TOMATE,330.0,Conserves,195 g,per 100 g,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
-117,THON RICAMAR TRIP NATUREL 65*3,360.0,Conserves,195 g,per 100 g,110.0,26.0,1.0,0.2,0.0,0.0,0.0,400.0
-118,CORNED BEEF 200 G BELLAT,380.0,Conserves,200 g,per 100 g,148.5142857142857,10.719999999999999,4.7,0.9800000000000001,16.602857142857143,13.057142857142857,1.854285714285714,541.4285714285714
-119,TRIP THON RICAMAR A L HUILE 65G*3,330.0,Conserves,195 g,per 100 g,200.0,26.0,10.0,2.0,0.0,0.0,0.0,400.0
-120,TRIP THON MARATUN A LA TOMATE 65G,325.0,Conserves,195 g,per 100 g,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
-121,TRIP MIETTE DE THON A L TOMATE DALITUN 65G*3,165.0,Conserves,195 g,per 100 g,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
-122,TRIP MITTES DE THON A LA TOMATE ATLANTIC,180.0,Conserves,195 g,per 100 g,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
-123,TRIP THON MARATUN A L HUILE,320.0,Conserves,195 g,per 100 g,200.0,26.0,10.0,2.0,0.0,0.0,0.0,400.0
-124,CONFITURE DE FRAISE SICAM 400G,165.0,Conserves,400 g,per 100 g,250.0,0.5,0.2,0.0,60.0,55.0,1.0,10.0
-125,CONFITURE ABRICOT SICAM 400G,140.0,Conserves,400 g,per 100 g,250.0,0.5,0.2,0.0,60.0,55.0,1.0,10.0
-126,CONFITURE D AGRUMES/MANDARINE SICAM 400G,120.0,Conserves,400 g,per 100 g,250.0,0.5,0.2,0.0,60.0,55.0,1.0,10.0
-127,CONFITURE 400G TRI STARS POMMES,125.0,Conserves,400 g,per 100 g,250.0,0.5,0.2,0.0,60.0,55.0,1.0,10.0
-128,CONFITURE DE POMME SICAM 400G,120.0,Conserves,400 g,per 100 g,250.0,0.5,0.2,0.0,60.0,55.0,1.0,10.0
-129,HARAISSA 135G CAB,85.0,Conserves,135 g,per 100 g,75.0,2.0,5.0,0.5,5.0,2.0,2.0,2000.0
-130,POLPA DI TOMATO 370G SICAM,115.0,Conserves,370 g,per 100 g,148.5142857142857,10.719999999999999,4.7,0.9800000000000001,16.602857142857143,13.057142857142857,1.854285714285714,541.4285714285714
-131,TOMATE HELLO 400G,180.0,Conserves,400 g,per 100 g,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
-132,TOMATE CONCENTREE ELHARA 400G,185.0,Conserves,400 g,per 100 g,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
-133,HROUSS GREEN GRILL 370G,165.0,Conserves,370 g,per 100 g,75.0,2.0,5.0,0.5,5.0,2.0,2.0,2000.0
-134,TOMATE ZAHRA 800G,355.0,Conserves,800 g,per 100 g,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
-135,TOMATE IZDIHAR 800G,335.0,Conserves,800 g,per 100 g,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
-136,HRISSA 400G SICAM,165.0,Conserves,400 g,per 100 g,75.0,2.0,5.0,0.5,5.0,2.0,2.0,2000.0
-137,TOMATE CONCENTRE ZAHRA 400G,180.0,Conserves,400 g,per 100 g,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
-138,HARISSA 760G TELLOISE,295.0,Conserves,760 g,per 100 g,75.0,2.0,5.0,0.5,5.0,2.0,2.0,2000.0
-139,TOMATE CAB 800G,290.0,Conserves,800 g,per 100 g,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
-140,TOMATE FIDE 800G,320.0,Conserves,800 g,per 100 g,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
-141,HARISSA IZDIHAR 380G,180.0,Conserves,380 g,per 100 g,75.0,2.0,5.0,0.5,5.0,2.0,2.0,2000.0
-142,HARISSA IZDIHAR 135G,80.0,Conserves,135 g,per 100 g,75.0,2.0,5.0,0.5,5.0,2.0,2.0,2000.0
-143,TOMATE JUMBO 400G,195.0,Conserves,400 g,per 100 g,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
-144,GAZEUSE COCA 2L,160.0,Boisson,2000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-145,GAZEUSE COCA 1L,110.0,Boisson,1000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-146,GAZEUSE SLIM POMME 2L HAMOUD,130.0,Boisson,2000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-147,GAZEUSE SLIM POMME 1L HAMOUD,85.0,Boisson,1000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-148,GAZEUSE SLIM ORANGE 2L HAMOUD,135.0,Boisson,2000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-149,GAZEUSE SLIM CITRON 2L HAMOUD,130.0,Boisson,2000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-150,GAZEUSE SLIM CITRON 1L HAMOUD,85.0,Boisson,1000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-151,GAZEUSE SLIM ANANAS 2L HAMOUD,130.0,Boisson,2000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-152,GAZEUSE SELECTO 2L HAMOUD,145.0,Boisson,2000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-153,GAZEUSE SELECTO 33CL HAMOUD,45.0,Boisson,330 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-154,GAZEUSE SLIM HAMOUD ORANGE 33CL,45.0,Boisson,330 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-155,GAZEUSE HAMOUD BLANCHE 33CL,45.0,Boisson,330 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-156,GAZEUSE BLANCHE 2L HAMOUD,140.0,Boisson,2000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-157,GAZEUSE BLANCHE 1L HAMOUD,85.0,Boisson,1000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-158,GAZEUSE SLIM ANANAS 1L HAMOUD,85.0,Boisson,1000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-159,GAZEUSE COLA 1L HAMOUD,80.0,Boisson,1000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-160,GAZEUSE COLA 2L HAMOUD,130.0,Boisson,2000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-161,GAZEUSE SLIM ORANGE 1L HAMOUD,85.0,Boisson,1000 ml,per 100 ml,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
-162,HUILE AFIA 2 LITRE,250.0,Huiles et Vinaigre,2000 ml,per 100 ml,884.0,0.0,100.0,14.0,0.0,0.0,0.0,0.0
-163,HUILE ELIO 1L,125.0,Huiles et Vinaigre,1000 ml,per 100 ml,884.0,0.0,100.0,14.0,0.0,0.0,0.0,0.0
-164,VINAIGRE SIDNA COLORE 70CL,100.0,Huiles et Vinaigre,700 ml,per 100 ml,20.0,0.0,0.0,0.0,1.0,0.5,0.0,5.0
-165,VINAIGRE SIDNA BLANC 70CL,115.0,Huiles et Vinaigre,700 ml,per 100 ml,20.0,0.0,0.0,0.0,1.0,0.5,0.0,5.0
-166,MAYONNAISE 395G FLEURIAL,275.0,Huiles et Vinaigre,395 g,per 100 g,680.0,1.0,75.0,12.0,1.0,1.0,0.0,600.0
-167,MAYONNAISE FLEURIAL 200G,170.0,Huiles et Vinaigre,200 g,per 100 g,680.0,1.0,75.0,12.0,1.0,1.0,0.0,600.0
-168,Céréales Ringosso au Chocolat,180.0,Epicerie-Sucree,200 g,per 100 g,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
-169,BISCUITS KOOL SUPREME 40G,70.0,Epicerie-Sucree,40 g,per 100 g,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
-170,BISCUITS FAMELIO 400G,165.0,Epicerie-Sucree,400 g,per 100 g,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
-171,BISCUITS KOOL CREAM CHOCOLAT SACHET 220G,125.0,Epicerie-Sucree,220 g,per 100 g,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
-172,GAUFRETTE BREAK KOOL 35G,70.0,Epicerie-Sucree,35 g,per 100 g,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
-173,GALETTE MAXON 340G,105.0,Epicerie-Sucree,340 g,per 100 g,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
-174,BISCUITS MAXON XL CACAO 400G,180.0,Epicerie-Sucree,400 g,per 100 g,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
-175,BISCUITS MEGA DREAM CHOCOLAT 320G,110.0,Epicerie-Sucree,320 g,per 100 g,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
-176,BISCUITS MEGA DREAM FRAISE 320G,110.0,Epicerie-Sucree,320 g,per 100 g,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
-177,PATE A TARTINER OPTILLA 700G,470.0,Epicerie-Sucree,700 g,per 100 g,540.0,6.0,31.0,10.0,57.0,55.0,3.0,50.0
-178,CHOCOLAT POUDRE NOVA 500G,325.0,Epicerie-Sucree,500 g,per 100 g,80.0,3.0,2.0,1.3,11.0,10.0,0.5,60.0
-179,Ail,900.0,Fruits et Légumes,1000 g,per 100 g,149.0,6.4,0.5,0.1,33.1,1.0,2.1,17.0
-180,Ail Rouge en Vrac,330.0,Fruits et Légumes,1000 g,per 100 g,149.0,6.4,0.5,0.1,33.1,1.0,2.1,17.0
-181,Ananas,660.0,Fruits et Légumes,1000 g,per 100 g,50.0,0.5,0.1,0.0,13.1,9.9,1.4,1.0
-182,Anchois Vrac,1375.0,Fruits et Légumes,1000 g,per 100 g,210.0,29.0,10.0,2.2,0.0,0.0,0.0,3668.0
-183,Artichaut 1kg,250.0,Fruits et Légumes,1000 g,per 100 g,47.0,3.3,0.2,0.0,10.5,1.0,5.4,94.0
-184,Aubergines 1kg,150.0,Fruits et Légumes,1000 g,per 100 g,25.0,1.0,0.2,0.0,5.7,3.5,3.0,2.0
-185,Avocat,1100.0,Fruits et Légumes,1000 g,per 100 g,160.0,2.0,15.0,2.1,9.0,0.7,7.0,7.0
-186,Banane,220.0,Fruits et Légumes,1000 g,per 100 g,89.0,1.1,0.3,0.1,23.0,12.2,2.6,1.0
-187,Betterave,90.0,Fruits et Légumes,1000 g,per 100 g,43.0,1.6,0.2,0.0,9.6,6.8,2.8,78.0
-188,Brocoli 1kg,300.0,Fruits et Légumes,1000 g,per 100 g,34.0,2.8,0.4,0.0,6.6,1.7,2.6,33.0
-189,Câpre,258.5,Fruits et Légumes,1000 g,per 100 g,23.0,2.4,0.9,0.2,4.9,0.4,3.2,2964.0
-190,Carde,80.0,Fruits et Légumes,1000 g,per 100 g,17.0,0.7,0.1,0.0,3.7,0.4,1.8,213.0
-191,Carotte,75.0,Fruits et Légumes,1000 g,per 100 g,41.0,0.9,0.2,0.0,9.6,4.7,2.8,69.0
-192,Cèlerie,45.0,Fruits et Légumes,1000 g,per 100 g,16.0,0.7,0.2,0.0,3.0,1.3,1.6,80.0
-193,Champignon Vrac,797.5,Fruits et Légumes,1000 g,per 100 g,22.0,3.1,0.3,0.0,3.3,2.0,1.0,5.0
-194,Cherimoya,1925.0,Fruits et Légumes,1000 g,per 100 g,75.0,1.6,0.7,0.0,17.7,12.9,3.0,7.0
-195,Chou Fleur,68.5,Fruits et Légumes,1000 g,per 100 g,25.0,2.0,0.3,0.0,5.0,1.9,2.5,30.0
-196,Chou Rouge,79.0,Fruits et Légumes,1000 g,per 100 g,31.0,1.4,0.2,0.0,7.4,3.8,2.1,27.0
-197,Chou Vert,75.0,Fruits et Légumes,1000 g,per 100 g,25.0,1.3,0.1,0.0,5.8,3.2,2.5,18.0
-198,Citron Jaune,187.5,Fruits et Légumes,1000 g,per 100 g,29.0,1.1,0.3,0.0,9.3,2.5,2.8,2.0
-199,Citron Vert,400.0,Fruits et Légumes,1000 g,per 100 g,30.0,0.7,0.2,0.0,10.5,1.7,2.8,2.0
-200,Coing,192.5,Fruits et Légumes,1000 g,per 100 g,57.0,0.4,0.1,0.0,15.3,6.3,1.9,4.0
-201,Concombre,66.0,Fruits et Légumes,1000 g,per 100 g,15.0,0.7,0.1,0.0,3.6,1.7,0.5,2.0
-202,Coriandre,25.0,Fruits et Légumes,1000 g,per 100 g,23.0,2.1,0.5,0.0,3.7,0.9,2.8,46.0
-203,Cornichons,451.0,Fruits et Légumes,1000 g,per 100 g,12.0,0.6,0.1,0.0,2.3,1.0,0.7,1208.0
-204,Courgette,135.0,Fruits et Légumes,1000 g,per 100 g,17.0,1.2,0.3,0.1,3.1,2.5,1.0,8.0
-205,Dattes Branche,550.0,Fruits et Légumes,1000 g,per 100 g,277.0,1.8,0.2,0.0,75.0,63.4,6.7,1.0
-206,Echalotte,50.0,Fruits et Légumes,1000 g,per 100 g,72.0,2.5,0.1,0.0,16.8,7.9,3.2,12.0
-207,Epinards,50.0,Fruits et Légumes,1000 g,per 100 g,23.0,2.9,0.4,0.1,3.6,0.4,2.2,79.0
-208,Fenouil,120.0,Fruits et Légumes,1000 g,per 100 g,31.0,1.2,0.2,0.0,7.3,3.9,3.1,52.0
-209,Fève,135.0,Fruits et Légumes,1000 g,per 100 g,88.0,7.6,0.7,0.1,14.5,1.8,5.4,3.0
-210,Flion,30.0,Fruits et Légumes,1000 g,per 100 g,62.963855421686745,1.9807228915662651,1.6168674698795176,0.24096385542168675,12.125301204819275,5.516867469879519,2.8433734939759034,173.63855421686748
-211,Fraise,550.0,Fruits et Légumes,1000 g,per 100 g,32.0,0.7,0.3,0.0,7.7,4.9,2.0,1.0
-212,Gingembre Vrac,880.0,Fruits et Légumes,1000 g,per 100 g,80.0,1.8,0.8,0.2,17.8,1.7,2.0,13.0
-213,Grenade,137.5,Fruits et Légumes,1000 g,per 100 g,83.0,1.7,1.2,0.1,18.7,13.7,4.0,3.0
-214,Haricots Verts,121.0,Fruits et Légumes,1000 g,per 100 g,31.0,1.8,0.1,0.0,7.1,3.3,3.4,6.0
-215,Kaki,330.0,Fruits et Légumes,1000 g,per 100 g,70.0,0.6,0.2,0.0,18.6,12.5,3.6,1.0
-216,Kiwi,825.0,Fruits et Légumes,1000 g,per 100 g,61.0,1.1,0.5,0.0,14.7,9.0,3.0,3.0
-217,Laurier,80.0,Fruits et Légumes,1000 g,per 100 g,313.0,7.6,8.4,2.3,74.9,0.0,26.3,23.0
-218,Mais Doux Vrac,330.0,Fruits et Légumes,1000 g,per 100 g,96.0,3.4,1.4,0.2,19.6,6.3,2.7,15.0
-219,Mandarine,170.0,Fruits et Légumes,1000 g,per 100 g,53.0,0.8,0.3,0.0,13.3,10.6,1.8,2.0
-220,Mangue,1375.0,Fruits et Légumes,1000 g,per 100 g,60.0,0.8,0.4,0.1,15.0,13.7,1.6,1.0
-221,Melon Cantaloup (Bouchebika),80.0,Fruits et Légumes,1000 g,per 100 g,34.0,0.8,0.2,0.0,8.2,7.9,0.9,16.0
-222,Melon Jaune 1kg,120.0,Fruits et Légumes,1000 g,per 100 g,36.0,0.9,0.1,0.0,9.1,8.1,0.9,18.0
-223,Menthe,25.0,Fruits et Légumes,1000 g,per 100 g,70.0,3.8,0.9,0.2,14.9,0.0,8.0,31.0
-224,Navet,160.0,Fruits et Légumes,1000 g,per 100 g,28.0,0.9,0.1,0.0,6.4,3.8,1.8,67.0
-225,Navet Blanc,75.0,Fruits et Légumes,1000 g,per 100 g,28.0,0.9,0.1,0.0,6.4,3.8,1.8,67.0
-226,Nectarine,380.0,Fruits et Légumes,1000 g,per 100 g,44.0,1.1,0.3,0.0,10.6,7.9,1.7,0.0
-227,Oignons De Saison,45.0,Fruits et Légumes,1000 g,per 100 g,40.0,1.1,0.1,0.0,9.3,4.2,1.7,4.0
-228,Olive Noyau Vrac,209.0,Fruits et Légumes,1000 g,per 100 g,115.0,0.8,11.0,1.5,6.3,0.0,2.9,735.0
-229,Olive Sèche,302.5,Fruits et Légumes,1000 g,per 100 g,115.0,0.8,11.0,1.5,6.3,0.0,2.9,735.0
-230,Olive Variante,258.5,Fruits et Légumes,1000 g,per 100 g,115.0,0.8,11.0,1.5,6.3,0.0,2.9,735.0
-231,Olive Violet,209.0,Fruits et Légumes,1000 g,per 100 g,115.0,0.8,11.0,1.5,6.3,0.0,2.9,735.0
-232,Olives Coupées,264.0,Fruits et Légumes,1000 g,per 100 g,115.0,0.8,11.0,1.5,6.3,0.0,2.9,735.0
-233,Olives Denoyautees,264.0,Fruits et Légumes,1000 g,per 100 g,115.0,0.8,11.0,1.5,6.3,0.0,2.9,735.0
-234,Olives Noires,203.5,Fruits et Légumes,1000 g,per 100 g,115.0,0.8,11.0,1.5,6.3,0.0,2.9,735.0
-235,Orange Moyenne,97.5,Fruits et Légumes,1000 g,per 100 g,47.0,0.9,0.1,0.0,12.0,9.4,2.4,0.0
-236,Pamplemousse,187.5,Fruits et Légumes,1000 g,per 100 g,42.0,0.8,0.1,0.0,10.7,6.9,1.6,0.0
-237,Pastèque,70.0,Fruits et Légumes,1000 g,per 100 g,30.0,0.6,0.2,0.0,7.6,6.2,0.4,1.0
-238,Petit Oignon,357.5,Fruits et Légumes,1000 g,per 100 g,40.0,1.1,0.1,0.0,9.3,4.2,1.7,4.0
-239,Petit Piment,110.0,Fruits et Légumes,1000 g,per 100 g,40.0,2.0,0.4,0.1,8.0,5.1,1.5,7.0
-240,Petit Pois,200.0,Fruits et Légumes,1000 g,per 100 g,81.0,5.4,0.4,0.1,14.5,5.7,5.1,5.0
-241,Piment Rouge,160.0,Fruits et Légumes,1000 g,per 100 g,40.0,2.0,0.4,0.1,8.0,5.1,1.5,7.0
-242,Piment Sucette,264.0,Fruits et Légumes,1000 g,per 100 g,40.0,2.0,0.4,0.1,8.0,5.1,1.5,7.0
-243,Piment Vert,130.0,Fruits et Légumes,1000 g,per 100 g,40.0,2.0,0.4,0.1,8.0,5.1,1.5,7.0
-244,Poire Moyenne,337.5,Fruits et Légumes,1000 g,per 100 g,57.0,0.4,0.1,0.0,15.2,9.8,3.1,1.0
-245,Poire Rouge,675.0,Fruits et Légumes,1000 g,per 100 g,57.0,0.4,0.1,0.0,15.2,9.8,3.1,1.0
-246,Poireaux,66.0,Fruits et Légumes,1000 g,per 100 g,61.0,1.5,0.3,0.0,14.2,3.9,1.8,20.0
-247,Poivron Rouge,160.0,Fruits et Légumes,1000 g,per 100 g,31.0,1.0,0.3,0.0,6.0,4.2,2.1,4.0
-248,Poivron Vert,135.0,Fruits et Légumes,1000 g,per 100 g,20.0,0.9,0.2,0.0,4.6,2.4,1.7,3.0
-249,Pomme de Terre 1kg,75.0,Fruits et Légumes,1000 g,per 100 g,77.0,2.0,0.1,0.0,17.5,0.8,2.2,6.0
-250,Pomme de Terre Douce 1kg,200.0,Fruits et Légumes,1000 g,per 100 g,86.0,1.6,0.1,0.0,20.1,4.2,3.0,55.0
-251,Pomme Jaune Super,562.5,Fruits et Légumes,1000 g,per 100 g,52.0,0.3,0.2,0.0,13.8,10.4,2.4,1.0
-252,Pomme Light Super,975.0,Fruits et Légumes,1000 g,per 100 g,52.0,0.3,0.2,0.0,13.8,10.4,2.4,1.0
-253,Pomme Rouge Moyen,209.0,Fruits et Légumes,1000 g,per 100 g,52.0,0.3,0.2,0.0,13.8,10.4,2.4,1.0
-254,Prune,247.5,Fruits et Légumes,1000 g,per 100 g,46.0,0.7,0.3,0.0,11.4,9.9,1.4,0.0
-255,Radis,50.0,Fruits et Légumes,1000 g,per 100 g,16.0,0.7,0.1,0.0,3.4,2.0,1.6,39.0
-256,Raisin Blanc,300.0,Fruits et Légumes,1000 g,per 100 g,67.0,0.6,0.4,0.1,17.2,16.3,0.9,2.0
-257,Raisin Noir,300.0,Fruits et Légumes,1000 g,per 100 g,67.0,0.6,0.4,0.1,17.2,16.3,0.9,2.0
-258,Raisin Rouge,500.0,Fruits et Légumes,1000 g,per 100 g,67.0,0.6,0.4,0.1,17.2,16.3,0.9,2.0
-259,Salade 1kg,120.0,Fruits et Légumes,1000 g,per 100 g,15.0,1.4,0.2,0.0,2.9,0.8,1.8,28.0
-260,Salade Frisée 1kg,150.0,Fruits et Légumes,1000 g,per 100 g,15.0,1.4,0.2,0.0,2.9,0.8,1.8,28.0
-261,Thym,80.0,Fruits et Légumes,1000 g,per 100 g,101.0,5.6,1.7,0.5,24.5,0.0,14.0,9.0
-262,Tomate,165.0,Fruits et Légumes,1000 g,per 100 g,18.0,0.9,0.2,0.0,3.9,2.6,1.2,5.0
-263,Abricot Secs,907.5,Fruits Secs,1000 g,per 100 g,241.0,3.4,0.5,0.0,62.6,53.4,7.3,10.0
-264,Amande,935.0,Fruits Secs,1000 g,per 100 g,579.0,21.2,49.9,3.8,21.6,4.4,12.5,1.0
-265,Amandes Décortiquées Bio,1210.0,Fruits Secs,1000 g,per 100 g,579.0,21.2,49.9,3.8,21.6,4.4,12.5,1.0
-266,Ananas Séchée,962.5,Fruits Secs,1000 g,per 100 g,349.0,1.4,0.5,0.0,89.9,71.0,3.8,18.0
-267,Bananes Séchées,962.5,Fruits Secs,1000 g,per 100 g,346.0,3.9,1.8,0.7,88.3,47.2,9.9,3.0
-268,Cacahuète,1200.0,Fruits Secs,1000 g,per 100 g,567.0,25.8,49.2,6.8,16.1,4.7,8.5,18.0
-269,Cacahuètes Grillées Salées Avec Peau,1200.0,Fruits Secs,1000 g,per 100 g,567.0,25.8,49.2,6.8,16.1,4.7,8.5,18.0
-270,Cacahuètes Nature Grillées Sans Peau,1200.0,Fruits Secs,1000 g,per 100 g,567.0,25.8,49.2,6.8,16.1,4.7,8.5,18.0
-271,Cerises Séchées,962.5,Fruits Secs,1000 g,per 100 g,325.0,1.0,0.1,0.0,82.8,62.0,4.0,15.0
-272,Cerneau de Noix AOP du Périgord Bio,1182.5,Fruits Secs,1000 g,per 100 g,654.0,15.2,65.2,6.1,13.7,2.6,6.7,2.0
-273,Figues Secs,1200.0,Fruits Secs,1000 g,per 100 g,249.0,3.3,0.9,0.2,63.9,47.9,9.8,10.0
-274,Fraises Séchées,962.5,Fruits Secs,1000 g,per 100 g,325.0,1.0,0.1,0.0,82.8,62.0,4.0,15.0
-275,Glands,110.0,Fruits Secs,1000 g,per 100 g,387.0,6.2,23.9,3.1,40.8,0.0,5.4,0.0
-276,Kiwi Séché,962.5,Fruits Secs,1000 g,per 100 g,349.0,2.0,0.5,0.0,87.0,65.0,4.0,20.0
-277,Mangue Séché,962.5,Fruits Secs,1000 g,per 100 g,319.0,2.0,0.7,0.0,82.0,66.3,2.4,162.0
-278,Marron,330.0,Fruits Secs,1000 g,per 100 g,245.0,3.2,2.2,0.4,53.0,10.6,8.1,3.0
-279,Mélange Apéritif Bio,1200.0,Fruits Secs,1000 g,per 100 g,600.0,18.0,52.0,5.5,22.0,5.5,7.0,10.0
-280,Mélange Etudiant Bio,1200.0,Fruits Secs,1000 g,per 100 g,600.0,18.0,52.0,5.5,22.0,5.5,7.0,10.0
-281,Noisettes Décortiquées Bio,1210.0,Fruits Secs,1000 g,per 100 g,628.0,14.9,60.8,4.5,16.7,4.3,9.7,0.0
-282,Noix de Cajou Bio,1200.0,Fruits Secs,1000 g,per 100 g,553.0,18.2,43.9,7.8,30.2,5.9,3.3,12.0
-283,Noix de Pécan,275.0,Fruits Secs,1000 g,per 100 g,691.0,9.2,71.9,6.2,13.9,4.0,9.6,0.0
-284,Pignons de Pin Bio,1200.0,Fruits Secs,1000 g,per 100 g,673.0,13.7,68.4,4.9,13.1,3.6,3.7,2.0
-285,Pistache,1200.0,Fruits Secs,1000 g,per 100 g,560.0,20.2,45.4,5.6,27.2,7.7,10.3,1.0
-286,Pruneau Séché,577.5,Fruits Secs,1000 g,per 100 g,240.0,2.2,0.4,0.0,63.9,38.1,7.1,2.0
-287,Raisins Séché Blanc,550.0,Fruits Secs,1000 g,per 100 g,299.0,3.1,0.5,0.2,79.2,59.2,4.5,11.0
-288,Raisins Séché Noir,715.0,Fruits Secs,1000 g,per 100 g,299.0,3.1,0.5,0.2,79.2,59.2,4.5,11.0
-289,Farine Agrodiv 5kg,250.0,Semoulerie et Farine,5000 g,per 100 g,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
-290,Farine de Blé GME 1kg,42.0,Semoulerie et Farine,1000 g,per 100 g,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
-291,Farine de Mais Réginat 500 g,175.0,Semoulerie et Farine,500 g,per 100 g,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
-292,Farine GMC 1kg,48.0,Semoulerie et Farine,1000 g,per 100 g,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
-293,Farine LaBelle 1Kg,65.0,Semoulerie et Farine,1000 g,per 100 g,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
-294,Farine Mama T150 1Kg,85.0,Semoulerie et Farine,1000 g,per 100 g,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
-295,Farine Mama T150 5kg,375.0,Semoulerie et Farine,5000 g,per 100 g,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
-296,Farine Mama T45 1kg,95.0,Semoulerie et Farine,1000 g,per 100 g,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
-297,Farine Mama T55 10kg,440.0,Semoulerie et Farine,10000 g,per 100 g,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
-298,Farine Safina 1kg,80.0,Semoulerie et Farine,1000 g,per 100 g,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
-299,Farine Sim 1kg,90.0,Semoulerie et Farine,1000 g,per 100 g,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
-300,Nounours Amidon De Mais 400g,120.0,Semoulerie et Farine,400 g,per 100 g,362.3157894736842,10.842105263157896,1.0,0.20000000000000004,74.73684210526316,0.3,3.2052631578947364,1.5789473684210527
-301,Semoule de Mais Réginat 800g,150.0,Semoulerie et Farine,800 g,per 100 g,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
-302,Semoule Fine Mama 1kg,95.0,Semoulerie et Farine,1000 g,per 100 g,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
-303,Semoule Fine Mama 2kg,235.0,Semoulerie et Farine,2000 g,per 100 g,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
-304,Semoule Fine Mama 5Kg,390.0,Semoulerie et Farine,5000 g,per 100 g,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
-305,Semoule Grosse Mama 1KG,100.0,Semoulerie et Farine,1000 g,per 100 g,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
-306,Semoule Grosse Mama 2kg,170.0,Semoulerie et Farine,2000 g,per 100 g,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
-307,Semoule Moyenne Mama 1kg,90.0,Semoulerie et Farine,1000 g,per 100 g,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
-308,Semoule Moyenne Mama 2kg,235.0,Semoulerie et Farine,2000 g,per 100 g,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
-309,Poulet,400.0,Viande,1000 g,per 100 g,165.0,31.0,3.6,1.0,0.0,0.0,0.0,74.0
-310,Boeuf,3200.0,Viande,1000 g,per 100 g,250.0,26.0,15.0,6.0,0.0,0.0,0.0,72.0
-311,Mouton,2500.0,Viande,1000 g,per 100 g,294.0,24.5,21.0,9.0,0.0,0.0,0.0,78.0
-312,Agneau,2800.0,Viande,1000 g,per 100 g,271.0,25.0,18.5,8.5,0.0,0.0,0.0,75.0
-313,Oeuf,15.0,Viande,50 g,per 100 g,155.0,13.0,11.0,3.3,1.1,1.1,0.0,124.0
-314,Sardine,1000.0,Poisson,1000 g,per 100 g,208.0,24.6,11.5,1.5,0.0,0.0,0.0,307.0
-315,Rouget,1500.0,Poisson,1000 g,per 100 g,109.0,18.6,3.5,0.6,0.0,0.0,0.0,65.0
-316,Daurade,1700.0,Poisson,1000 g,per 100 g,128.0,21.5,4.5,1.1,0.0,0.0,0.0,61.0
-317,Merlan,2200.0,Poisson,1000 g,per 100 g,90.0,18.0,1.3,0.2,0.0,0.0,0.0,73.0
+﻿PID,Name,Price,Category,Quantity,Nutritional Unit,Nutri_Key,Calories (g),Protein (g),Total_Fat (g),Saturated_Fat (g),Carbohydrates (g),Sugar (g),Fiber (g),Sodium (mg)
+1,Spaghetti 500g EXTRA,90.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+2,FUSILLI 500g Garrido,115.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+3,NIDI 500G محبوبة,180.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+4,GNOCCHETTI  500G البركة,110.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+5,CHAKHCHOUKHA 500G البركة,110.0,Pâtes et Couscous,500 g,per 100 g,cabbage,25.0,1.3,0.1,0.0,5.8,3.2,2.5,18.0
+6,LASAGNE 500G البركة,300.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+7,FLAMINGO 500G البركة,85.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+8,PLOMB 500G البركة,90.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+9,COUSCOUS GROS 1KG البركة,170.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+10,COUSCOUS MOYEN 1KG البركة,170.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+11,COUSCOUS FIN  1KG البركة,170.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+12,SPAGHETTI 7 500G البركة,85.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+13,COUDE N4 500G البركة,90.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+14,VERMICELLE 500G البركة,90.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+15,COQUILLETTES 500G البركة,85.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+16,SPAGHETTI 500G SAFINA,90.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+17,LANGUES D’OISEAUX 500g Safina,90.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+18,VERMICELLES 500g Safina,90.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+19,COUDES 8 Safina 500g,90.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+20,COUDES 6 Safina 500g,90.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+21,COUDES 4 Safina 500g,90.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+22,COUSCOUS GROS 1KG عمور,140.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+23,COUSCOUS MOYEN 1KG عمور,140.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+24,MACCARONI 4 EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+25,ESCARGOT 500G EXTRA,95.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+26,PLOMBS 1 KG AMOR BENAMOR,150.0,Pâtes et Couscous,1000 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+27,COUSCOUS MOYEN 1KG AMOR BENAMOR,180.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+28,COUSCOUS GROS 1KG Safina,185.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+29,LINGUINE 500G Sosémie,85.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+30,CHAKHCHOUKHA 1KG MAMA,250.0,Pâtes et Couscous,1000 g,per 100 g,cabbage,25.0,1.3,0.1,0.0,5.8,3.2,2.5,18.0
+31,Penné aux Légumes 400G محبوبة,145.0,Pâtes et Couscous,400 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+32,ACHKAL 500G محبوبة,55.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+33,SPAGHETTI au Blé Complet 500G محبوبة,100.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+34,NOUILLES Carrés 500G تريدة محبوبة,65.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+35,Grand ESCARGOT 500G محبوبة,65.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+36,NOUILLES 500G محبوبة,65.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+37,SPAGHETTI 500G محبوبة,65.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+38,Petit PLOMB 500G محبوبة,65.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+39,FUSILLI 500G محبوبة,65.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+40,COUSCOUS FIN SIM 1KG,135.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+41,COUSCOUS FIN Safina 1KG,170.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+42,COUSCOUS MOYEN Safina 1KG,170.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+43,LINGUINE MAMA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+44,PLOMB MAMA 500G,90.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+45,COUDE PETIT MAMA 500G,90.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+46,COUSCOUS GROS MAMA 1KG,175.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+47,COUSCOUS D’ORGE MAMA 900G,230.0,Pâtes et Couscous,900 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+48,COUSCOUS MOYEN MAMA 1KG,175.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+49,COUSCOUS COMPLET MAMA 900G,160.0,Pâtes et Couscous,900 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+50,COUDE MOYEN MAMA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+51,TLITLI SIM 500G,60.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+52,VERMICELLE  SIM 500G,60.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+53,SPAGHETTI  SIM 500G,60.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+54,COUSCOUS MOYEN 1KG SIM,135.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+55,COUDE GARRIDO CURVE LISCE 3,115.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+56,FARFALLE EXTRA 500G,155.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+57,INTEGRALE EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+58,FUSILE AU BLE COMPLET 500G INTEGRALE EXTRA,95.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+59,COUSCOUS MOYEN EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+60,COUSCOUS FINE EXTRA 1KG,185.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+61,COUDE N 5 500G EXTRA,95.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+62,TRIDA EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+63,TAGLIATELLE 500G EXTRA,90.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+64,PLOMB EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+65,MACARONI 4 EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+66,CHEVEUX DANGE EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+67,COUDE6 EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+68,COUDE3 EXTRA 500G,95.0,Pâtes et Couscous,500 g,per 100 g,dry_pasta,371.0,13.0,1.5,0.3,74.7,2.2,3.2,5.0
+69,COUSCOUS FIN MAMA 1KG,175.0,Pâtes et Couscous,1000 g,per 100 g,couscous,376.0,12.8,0.6,0.1,77.4,0.4,2.8,10.0
+70,Fromage Fondu Walid Sans Gluten,605.0,Produits Laitiers,700 g,per 100 g,processed_cheese,280.0,12.0,23.0,15.0,6.0,6.0,0.0,1000.0
+71,lait candia silhouette,130.0,Produits Laitiers,1000 ml,per 100 ml,skim_milk,35.0,3.4,0.1,0.1,5.0,5.0,0.0,44.0
+72,MARGARINE MANI 500G,180.0,Produits Laitiers,500 g,per 100 g,margarine,717.0,0.1,81.0,15.0,0.6,0.0,0.0,700.0
+73,MARGARINE FLEURIAL 250G CEVITAL,95.0,Produits Laitiers,250 g,per 100 g,margarine,717.0,0.1,81.0,15.0,0.6,0.0,0.0,700.0
+74,MARGARINE FLEURIAL 250G VEGETALIS,115.0,Produits Laitiers,250 g,per 100 g,margarine,717.0,0.1,81.0,15.0,0.6,0.0,0.0,700.0
+75,LAIT CANDIA 1LITRE,125.0,Produits Laitiers,1000 ml,per 100 ml,whole_milk,65.0,3.3,3.6,2.3,4.7,4.7,0.0,43.0
+76,CANDY CHOCO 200ML,50.0,Produits Laitiers,200 ml,per 100 ml,chocolate_milk,80.0,3.0,2.0,1.3,11.0,10.0,0.5,60.0
+77,CANDY CHOCO 1L,190.0,Produits Laitiers,1000 ml,per 100 ml,chocolate_milk,80.0,3.0,2.0,1.3,11.0,10.0,0.5,60.0
+78,LAIT CANDIA 1LITRE ENTIER,150.0,Produits Laitiers,1000 ml,per 100 ml,whole_milk,65.0,3.3,3.6,2.3,4.7,4.7,0.0,43.0
+79,HARICOT ROUGE 1KG Garrido,500.0,Légumes Secs,1000 g,per 100 g,kidney_beans,337.0,22.5,1.3,0.2,62.0,3.0,15.2,12.0
+80,Pois Cassés 1kg Garrido,330.0,Légumes Secs,1000 g,per 100 g,split_peas,341.0,24.5,1.2,0.2,60.0,2.0,25.0,15.0
+81,RIZ étuvé 1KG La Belle,155.0,Légumes Secs,1000 g,per 100 g,rice,360.0,6.7,0.7,0.2,80.0,0.1,1.3,5.0
+82,LENTILLES Borjot 1Kg,250.0,Légumes Secs,1000 g,per 100 g,lentils,353.0,24.6,1.1,0.2,63.4,2.0,10.7,6.0
+83,LENTILLES  BORJOT 500G,135.0,Légumes Secs,500 g,per 100 g,lentils,353.0,24.6,1.1,0.2,63.4,2.0,10.7,6.0
+84,POIS CHICHE BORJOT 500G,215.0,Légumes Secs,500 g,per 100 g,chickpeas,378.0,20.5,6.0,0.6,63.0,10.7,12.2,24.0
+85,HARICOTS BORJOT 500G,185.0,Légumes Secs,500 g,per 100 g,kidney_beans,337.0,22.5,1.3,0.2,62.0,3.0,15.2,12.0
+86,LENTILLE GARRIDO 1KG,385.0,Légumes Secs,1000 g,per 100 g,lentils,353.0,24.6,1.1,0.2,63.4,2.0,10.7,6.0
+87,LENTILLES 1KG GARRIDO,385.0,Légumes Secs,1000 g,per 100 g,lentils,353.0,24.6,1.1,0.2,63.4,2.0,10.7,6.0
+88,LENTILLE ROUGE GARRIDO 1KG,350.0,Légumes Secs,1000 g,per 100 g,lentils,353.0,24.6,1.1,0.2,63.4,2.0,10.7,6.0
+89,HARICOTS ROUGE 500G GARRIDO,255.0,Légumes Secs,500 g,per 100 g,kidney_beans,337.0,22.5,1.3,0.2,62.0,3.0,15.2,12.0
+90,HARICOT GARRIDO 500G,225.0,Légumes Secs,500 g,per 100 g,kidney_beans,337.0,22.5,1.3,0.2,62.0,3.0,15.2,12.0
+91,POIS CHICHE GARRIDO 500G,250.0,Légumes Secs,500 g,per 100 g,chickpeas,378.0,20.5,6.0,0.6,63.0,10.7,12.2,24.0
+92,Substitut de Sucre en Poudre MagiLight,120.0,Cafés et Sucres,50 g,per 100 g,sugar,400.0,0.0,0.0,0.0,99.8,99.8,0.0,1.0
+93,Granior Chicorée Café Solubles,535.0,Cafés et Sucres,200 g,per 100 g,coffee,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
+94,Café moulu Famico Exclusive,250.0,Cafés et Sucres,250 g,per 100 g,coffee,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
+95,Café Boukhari Mélange arabica et robusta,250.0,Cafés et Sucres,250 g,per 100 g,coffee,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
+96,Chicorée mix soluble de Grandos,680.0,Cafés et Sucres,100 g,per 100 g,other,108.14285714285714,0.09285714285714286,0.0,0.0,27.27142857142857,27.25,0.014285714285714287,1.9285714285714286
+97,Boisson instantanée Chicorée de City One,210.0,Cafés et Sucres,70 g,per 100 g,other,108.14285714285714,0.09285714285714286,0.0,0.0,27.27142857142857,27.25,0.014285714285714287,1.9285714285714286
+98,Primo Café 250 G,250.0,Cafés et Sucres,250 g,per 100 g,coffee,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
+99,Café D’Or Moulu 250 Gr,250.0,Cafés et Sucres,250 g,per 100 g,coffee,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
+100,SUCRE CEVITAL 2KG,190.0,Cafés et Sucres,2000 g,per 100 g,sugar,400.0,0.0,0.0,0.0,99.8,99.8,0.0,1.0
+101,SUCRE CEVITAL 1KG,95.0,Cafés et Sucres,1000 g,per 100 g,sugar,400.0,0.0,0.0,0.0,99.8,99.8,0.0,1.0
+102,CAFE OSCAR 250G TRESOR NOIR,250.0,Cafés et Sucres,250 g,per 100 g,coffee,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
+103,CAFE MOULU CAFESTA 250G,250.0,Cafés et Sucres,250 g,per 100 g,coffee,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
+104,CAFE BONAL 250G,250.0,Cafés et Sucres,250 g,per 100 g,coffee,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
+105,CAFE  AROMA 250G,250.0,Cafés et Sucres,250 g,per 100 g,coffee,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
+106,CAFE AROMA FAMILIAL 250G,250.0,Cafés et Sucres,250 g,per 100 g,coffee,1.0,0.1,0.0,0.0,0.0,0.0,0.0,2.0
+107,PATE A TARTINER EL MORDJANE 700G,860.0,Conserves,700 g,per 100 g,spread,540.0,6.0,31.0,10.0,57.0,55.0,3.0,50.0
+108,Tomates CAB Hello 800 g,330.0,Conserves,800 g,per 100 g,tomato_paste,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
+109,THON MARICIANA A LA TOMATE 400G,610.0,Conserves,400 g,per 100 g,tuna_tomato,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
+110,THON ATLANTICO 160G A LA TOMATE,235.0,Conserves,160 g,per 100 g,tuna_tomato,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
+111,THON MARINARA 140G HUILE VEGETALE,199.0,Conserves,140 g,per 100 g,tuna_in_oil,200.0,26.0,10.0,2.0,0.0,0.0,0.0,400.0
+112,THON RICAMAR 160G NATUREL,305.0,Conserves,160 g,per 100 g,tuna_natural,110.0,26.0,1.0,0.2,0.0,0.0,0.0,400.0
+113,THON MARATUN A LA TOMATE 160G,255.0,Conserves,160 g,per 100 g,tuna_tomato,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
+114,THON A L HUILE RICAMAR 160G,255.0,Conserves,160 g,per 100 g,tuna_in_oil,200.0,26.0,10.0,2.0,0.0,0.0,0.0,400.0
+115,THON A LA TOMATE RICAMAR 160G,250.0,Conserves,160 g,per 100 g,tuna_tomato,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
+116,TRIP THON RICAMAR A LA TOMATE,330.0,Conserves,195 g,per 100 g,tuna_tomato,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
+117,THON RICAMAR TRIP NATUREL 65*3,360.0,Conserves,195 g,per 100 g,tuna_natural,110.0,26.0,1.0,0.2,0.0,0.0,0.0,400.0
+118,CORNED BEEF 200 G BELLAT,380.0,Conserves,200 g,per 100 g,other,148.5142857142857,10.719999999999999,4.7,0.9800000000000001,16.602857142857143,13.057142857142857,1.854285714285714,541.4285714285714
+119,TRIP THON RICAMAR A L HUILE 65G*3,330.0,Conserves,195 g,per 100 g,tuna_in_oil,200.0,26.0,10.0,2.0,0.0,0.0,0.0,400.0
+120,TRIP THON MARATUN A LA TOMATE 65G,325.0,Conserves,195 g,per 100 g,tuna_tomato,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
+121,TRIP MIETTE DE THON A L TOMATE DALITUN 65G*3,165.0,Conserves,195 g,per 100 g,tuna_tomato,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
+122,TRIP MITTES DE THON A LA TOMATE ATLANTIC,180.0,Conserves,195 g,per 100 g,tuna_tomato,150.0,20.0,7.0,1.5,3.0,2.0,1.0,500.0
+123,TRIP THON MARATUN A L HUILE,320.0,Conserves,195 g,per 100 g,tuna_in_oil,200.0,26.0,10.0,2.0,0.0,0.0,0.0,400.0
+124,CONFITURE DE FRAISE SICAM 400G,165.0,Conserves,400 g,per 100 g,jam,250.0,0.5,0.2,0.0,60.0,55.0,1.0,10.0
+125,CONFITURE ABRICOT SICAM 400G,140.0,Conserves,400 g,per 100 g,jam,250.0,0.5,0.2,0.0,60.0,55.0,1.0,10.0
+126,CONFITURE D AGRUMES/MANDARINE SICAM 400G,120.0,Conserves,400 g,per 100 g,jam,250.0,0.5,0.2,0.0,60.0,55.0,1.0,10.0
+127,CONFITURE 400G TRI STARS POMMES,125.0,Conserves,400 g,per 100 g,jam,250.0,0.5,0.2,0.0,60.0,55.0,1.0,10.0
+128,CONFITURE DE POMME SICAM 400G,120.0,Conserves,400 g,per 100 g,jam,250.0,0.5,0.2,0.0,60.0,55.0,1.0,10.0
+129,HARAISSA 135G CAB,85.0,Conserves,135 g,per 100 g,harissa,75.0,2.0,5.0,0.5,5.0,2.0,2.0,2000.0
+130,POLPA DI TOMATO 370G SICAM,115.0,Conserves,370 g,per 100 g,other,148.5142857142857,10.719999999999999,4.7,0.9800000000000001,16.602857142857143,13.057142857142857,1.854285714285714,541.4285714285714
+131,TOMATE HELLO 400G,180.0,Conserves,400 g,per 100 g,tomato_paste,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
+132,TOMATE CONCENTREE ELHARA 400G,185.0,Conserves,400 g,per 100 g,tomato_paste,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
+133,HROUSS GREEN GRILL 370G,165.0,Conserves,370 g,per 100 g,harissa,75.0,2.0,5.0,0.5,5.0,2.0,2.0,2000.0
+134,TOMATE ZAHRA 800G,355.0,Conserves,800 g,per 100 g,tomato_paste,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
+135,TOMATE IZDIHAR 800G,335.0,Conserves,800 g,per 100 g,tomato_paste,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
+136,HRISSA 400G SICAM,165.0,Conserves,400 g,per 100 g,harissa,75.0,2.0,5.0,0.5,5.0,2.0,2.0,2000.0
+137,TOMATE CONCENTRE ZAHRA 400G,180.0,Conserves,400 g,per 100 g,tomato_paste,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
+138,HARISSA 760G TELLOISE,295.0,Conserves,760 g,per 100 g,harissa,75.0,2.0,5.0,0.5,5.0,2.0,2.0,2000.0
+139,TOMATE CAB 800G,290.0,Conserves,800 g,per 100 g,tomato_paste,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
+140,TOMATE FIDE 800G,320.0,Conserves,800 g,per 100 g,tomato_paste,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
+141,HARISSA IZDIHAR 380G,180.0,Conserves,380 g,per 100 g,harissa,75.0,2.0,5.0,0.5,5.0,2.0,2.0,2000.0
+142,HARISSA IZDIHAR 135G,80.0,Conserves,135 g,per 100 g,harissa,75.0,2.0,5.0,0.5,5.0,2.0,2.0,2000.0
+143,TOMATE JUMBO 400G,195.0,Conserves,400 g,per 100 g,tomato_paste,82.0,4.3,0.5,0.1,18.9,11.0,4.1,50.0
+144,GAZEUSE COCA 2L,160.0,Boisson,2000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+145,GAZEUSE COCA 1L,110.0,Boisson,1000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+146,GAZEUSE SLIM POMME 2L HAMOUD,130.0,Boisson,2000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+147,GAZEUSE SLIM POMME 1L HAMOUD,85.0,Boisson,1000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+148,GAZEUSE SLIM ORANGE 2L HAMOUD,135.0,Boisson,2000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+149,GAZEUSE SLIM CITRON 2L HAMOUD,130.0,Boisson,2000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+150,GAZEUSE SLIM CITRON 1L HAMOUD,85.0,Boisson,1000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+151,GAZEUSE SLIM ANANAS 2L HAMOUD,130.0,Boisson,2000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+152,GAZEUSE SELECTO 2L HAMOUD,145.0,Boisson,2000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+153,GAZEUSE SELECTO 33CL HAMOUD,45.0,Boisson,330 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+154,GAZEUSE SLIM HAMOUD ORANGE 33CL,45.0,Boisson,330 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+155,GAZEUSE HAMOUD BLANCHE 33CL,45.0,Boisson,330 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+156,GAZEUSE BLANCHE 2L HAMOUD,140.0,Boisson,2000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+157,GAZEUSE BLANCHE 1L HAMOUD,85.0,Boisson,1000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+158,GAZEUSE SLIM ANANAS 1L HAMOUD,85.0,Boisson,1000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+159,GAZEUSE COLA 1L HAMOUD,80.0,Boisson,1000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+160,GAZEUSE COLA 2L HAMOUD,130.0,Boisson,2000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+161,GAZEUSE SLIM ORANGE 1L HAMOUD,85.0,Boisson,1000 ml,per 100 ml,soda,42.0,0.0,0.0,0.0,10.6,10.6,0.0,10.0
+162,HUILE AFIA 2 LITRE,250.0,Huiles et Vinaigre,2000 ml,per 100 ml,oil,884.0,0.0,100.0,14.0,0.0,0.0,0.0,0.0
+163,HUILE ELIO 1L,125.0,Huiles et Vinaigre,1000 ml,per 100 ml,oil,884.0,0.0,100.0,14.0,0.0,0.0,0.0,0.0
+164,VINAIGRE SIDNA COLORE 70CL,100.0,Huiles et Vinaigre,700 ml,per 100 ml,vinegar,20.0,0.0,0.0,0.0,1.0,0.5,0.0,5.0
+165,VINAIGRE SIDNA BLANC 70CL,115.0,Huiles et Vinaigre,700 ml,per 100 ml,vinegar,20.0,0.0,0.0,0.0,1.0,0.5,0.0,5.0
+166,MAYONNAISE 395G FLEURIAL,275.0,Huiles et Vinaigre,395 g,per 100 g,mayonnaise,680.0,1.0,75.0,12.0,1.0,1.0,0.0,600.0
+167,MAYONNAISE FLEURIAL 200G,170.0,Huiles et Vinaigre,200 g,per 100 g,mayonnaise,680.0,1.0,75.0,12.0,1.0,1.0,0.0,600.0
+168,Céréales Ringosso au Chocolat,180.0,Epicerie-Sucree,200 g,per 100 g,biscuits,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
+169,BISCUITS KOOL SUPREME 40G,70.0,Epicerie-Sucree,40 g,per 100 g,biscuits,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
+170,BISCUITS FAMELIO 400G,165.0,Epicerie-Sucree,400 g,per 100 g,biscuits,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
+171,BISCUITS KOOL CREAM CHOCOLAT SACHET 220G,125.0,Epicerie-Sucree,220 g,per 100 g,biscuits,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
+172,GAUFRETTE BREAK KOOL 35G,70.0,Epicerie-Sucree,35 g,per 100 g,biscuits,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
+173,GALETTE MAXON 340G,105.0,Epicerie-Sucree,340 g,per 100 g,biscuits,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
+174,BISCUITS MAXON XL CACAO 400G,180.0,Epicerie-Sucree,400 g,per 100 g,biscuits,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
+175,BISCUITS MEGA DREAM CHOCOLAT 320G,110.0,Epicerie-Sucree,320 g,per 100 g,biscuits,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
+176,BISCUITS MEGA DREAM FRAISE 320G,110.0,Epicerie-Sucree,320 g,per 100 g,biscuits,450.0,7.0,15.0,7.0,70.0,25.0,3.0,300.0
+177,PATE A TARTINER OPTILLA 700G,470.0,Epicerie-Sucree,700 g,per 100 g,spread,540.0,6.0,31.0,10.0,57.0,55.0,3.0,50.0
+178,CHOCOLAT POUDRE NOVA 500G,325.0,Epicerie-Sucree,500 g,per 100 g,chocolate_milk,80.0,3.0,2.0,1.3,11.0,10.0,0.5,60.0
+179,Ail,900.0,Fruits et Légumes,1000 g,per 100 g,garlic,149.0,6.4,0.5,0.1,33.1,1.0,2.1,17.0
+180,Ail Rouge en Vrac,330.0,Fruits et Légumes,1000 g,per 100 g,garlic,149.0,6.4,0.5,0.1,33.1,1.0,2.1,17.0
+181,Ananas,660.0,Fruits et Légumes,1000 g,per 100 g,pineapple,50.0,0.5,0.1,0.0,13.1,9.9,1.4,1.0
+182,Anchois Vrac,1375.0,Fruits et Légumes,1000 g,per 100 g,anchovy,210.0,29.0,10.0,2.2,0.0,0.0,0.0,3668.0
+183,Artichaut 1kg,250.0,Fruits et Légumes,1000 g,per 100 g,artichoke,47.0,3.3,0.2,0.0,10.5,1.0,5.4,94.0
+184,Aubergines 1kg,150.0,Fruits et Légumes,1000 g,per 100 g,eggplant,25.0,1.0,0.2,0.0,5.7,3.5,3.0,2.0
+185,Avocat,1100.0,Fruits et Légumes,1000 g,per 100 g,avocado,160.0,2.0,15.0,2.1,9.0,0.7,7.0,7.0
+186,Banane,220.0,Fruits et Légumes,1000 g,per 100 g,banana,89.0,1.1,0.3,0.1,23.0,12.2,2.6,1.0
+187,Betterave,90.0,Fruits et Légumes,1000 g,per 100 g,beet,43.0,1.6,0.2,0.0,9.6,6.8,2.8,78.0
+188,Brocoli 1kg,300.0,Fruits et Légumes,1000 g,per 100 g,broccoli,34.0,2.8,0.4,0.0,6.6,1.7,2.6,33.0
+189,Câpre,258.5,Fruits et Légumes,1000 g,per 100 g,capers,23.0,2.4,0.9,0.2,4.9,0.4,3.2,2964.0
+190,Carde,80.0,Fruits et Légumes,1000 g,per 100 g,chard,17.0,0.7,0.1,0.0,3.7,0.4,1.8,213.0
+191,Carotte,75.0,Fruits et Légumes,1000 g,per 100 g,carrot,41.0,0.9,0.2,0.0,9.6,4.7,2.8,69.0
+192,Cèlerie,45.0,Fruits et Légumes,1000 g,per 100 g,celery,16.0,0.7,0.2,0.0,3.0,1.3,1.6,80.0
+193,Champignon Vrac,797.5,Fruits et Légumes,1000 g,per 100 g,mushroom,22.0,3.1,0.3,0.0,3.3,2.0,1.0,5.0
+194,Cherimoya,1925.0,Fruits et Légumes,1000 g,per 100 g,cherimoya,75.0,1.6,0.7,0.0,17.7,12.9,3.0,7.0
+195,Chou Fleur,68.5,Fruits et Légumes,1000 g,per 100 g,cauliflower,25.0,2.0,0.3,0.0,5.0,1.9,2.5,30.0
+196,Chou Rouge,79.0,Fruits et Légumes,1000 g,per 100 g,red_cabbage,31.0,1.4,0.2,0.0,7.4,3.8,2.1,27.0
+197,Chou Vert,75.0,Fruits et Légumes,1000 g,per 100 g,cabbage,25.0,1.3,0.1,0.0,5.8,3.2,2.5,18.0
+198,Citron Jaune,187.5,Fruits et Légumes,1000 g,per 100 g,lemon,29.0,1.1,0.3,0.0,9.3,2.5,2.8,2.0
+199,Citron Vert,400.0,Fruits et Légumes,1000 g,per 100 g,lime,30.0,0.7,0.2,0.0,10.5,1.7,2.8,2.0
+200,Coing,192.5,Fruits et Légumes,1000 g,per 100 g,quince,57.0,0.4,0.1,0.0,15.3,6.3,1.9,4.0
+201,Concombre,66.0,Fruits et Légumes,1000 g,per 100 g,cucumber,15.0,0.7,0.1,0.0,3.6,1.7,0.5,2.0
+202,Coriandre,25.0,Fruits et Légumes,1000 g,per 100 g,coriander,23.0,2.1,0.5,0.0,3.7,0.9,2.8,46.0
+203,Cornichons,451.0,Fruits et Légumes,1000 g,per 100 g,gherkin,12.0,0.6,0.1,0.0,2.3,1.0,0.7,1208.0
+204,Courgette,135.0,Fruits et Légumes,1000 g,per 100 g,zucchini,17.0,1.2,0.3,0.1,3.1,2.5,1.0,8.0
+205,Dattes Branche,550.0,Fruits et Légumes,1000 g,per 100 g,dates,277.0,1.8,0.2,0.0,75.0,63.4,6.7,1.0
+206,Echalotte,50.0,Fruits et Légumes,1000 g,per 100 g,shallot,72.0,2.5,0.1,0.0,16.8,7.9,3.2,12.0
+207,Epinards,50.0,Fruits et Légumes,1000 g,per 100 g,spinach,23.0,2.9,0.4,0.1,3.6,0.4,2.2,79.0
+208,Fenouil,120.0,Fruits et Légumes,1000 g,per 100 g,fennel,31.0,1.2,0.2,0.0,7.3,3.9,3.1,52.0
+209,Fève,135.0,Fruits et Légumes,1000 g,per 100 g,fava_bean,88.0,7.6,0.7,0.1,14.5,1.8,5.4,3.0
+210,Flion,30.0,Fruits et Légumes,1000 g,per 100 g,other,65.1547619047619,2.0047619047619047,1.6119047619047613,0.24166666666666667,12.940476190476188,5.477380952380953,3.441666666666667,171.6904761904762
+211,Fraise,550.0,Fruits et Légumes,1000 g,per 100 g,strawberry,32.0,0.7,0.3,0.0,7.7,4.9,2.0,1.0
+212,Gingembre Vrac,880.0,Fruits et Légumes,1000 g,per 100 g,ginger,80.0,1.8,0.8,0.2,17.8,1.7,2.0,13.0
+213,Grenade,137.5,Fruits et Légumes,1000 g,per 100 g,pomegranate,83.0,1.7,1.2,0.1,18.7,13.7,4.0,3.0
+214,Haricots Verts,121.0,Fruits et Légumes,1000 g,per 100 g,green_beans,31.0,1.8,0.1,0.0,7.1,3.3,3.4,6.0
+215,Kaki,330.0,Fruits et Légumes,1000 g,per 100 g,persimmon,70.0,0.6,0.2,0.0,18.6,12.5,3.6,1.0
+216,Kiwi,825.0,Fruits et Légumes,1000 g,per 100 g,kiwi,61.0,1.1,0.5,0.0,14.7,9.0,3.0,3.0
+217,Laurier,80.0,Fruits et Légumes,1000 g,per 100 g,bay_leaf,313.0,7.6,8.4,2.3,74.9,0.0,26.3,23.0
+218,Mais Doux Vrac,330.0,Fruits et Légumes,1000 g,per 100 g,corn,96.0,3.4,1.4,0.2,19.6,6.3,2.7,15.0
+219,Mandarine,170.0,Fruits et Légumes,1000 g,per 100 g,mandarin,53.0,0.8,0.3,0.0,13.3,10.6,1.8,2.0
+220,Mangue,1375.0,Fruits et Légumes,1000 g,per 100 g,mango,60.0,0.8,0.4,0.1,15.0,13.7,1.6,1.0
+221,Melon Cantaloup (Bouchebika),80.0,Fruits et Légumes,1000 g,per 100 g,cantaloupe,34.0,0.8,0.2,0.0,8.2,7.9,0.9,16.0
+222,Melon Jaune 1kg,120.0,Fruits et Légumes,1000 g,per 100 g,honeydew,36.0,0.9,0.1,0.0,9.1,8.1,0.9,18.0
+223,Menthe,25.0,Fruits et Légumes,1000 g,per 100 g,mint,70.0,3.8,0.9,0.2,14.9,0.0,8.0,31.0
+224,Navet,160.0,Fruits et Légumes,1000 g,per 100 g,turnip,28.0,0.9,0.1,0.0,6.4,3.8,1.8,67.0
+225,Navet Blanc,75.0,Fruits et Légumes,1000 g,per 100 g,turnip,28.0,0.9,0.1,0.0,6.4,3.8,1.8,67.0
+226,Nectarine,380.0,Fruits et Légumes,1000 g,per 100 g,nectarine,44.0,1.1,0.3,0.0,10.6,7.9,1.7,0.0
+227,Oignons De Saison,45.0,Fruits et Légumes,1000 g,per 100 g,onion,40.0,1.1,0.1,0.0,9.3,4.2,1.7,4.0
+228,Olive Noyau Vrac,209.0,Fruits et Légumes,1000 g,per 100 g,olive,115.0,0.8,11.0,1.5,6.3,0.0,2.9,735.0
+229,Olive Sèche,302.5,Fruits et Légumes,1000 g,per 100 g,olive,115.0,0.8,11.0,1.5,6.3,0.0,2.9,735.0
+230,Olive Variante,258.5,Fruits et Légumes,1000 g,per 100 g,olive,115.0,0.8,11.0,1.5,6.3,0.0,2.9,735.0
+231,Olive Violet,209.0,Fruits et Légumes,1000 g,per 100 g,olive,115.0,0.8,11.0,1.5,6.3,0.0,2.9,735.0
+232,Olives Coupées,264.0,Fruits et Légumes,1000 g,per 100 g,olive,115.0,0.8,11.0,1.5,6.3,0.0,2.9,735.0
+233,Olives Denoyautees,264.0,Fruits et Légumes,1000 g,per 100 g,olive,115.0,0.8,11.0,1.5,6.3,0.0,2.9,735.0
+234,Olives Noires,203.5,Fruits et Légumes,1000 g,per 100 g,olive,115.0,0.8,11.0,1.5,6.3,0.0,2.9,735.0
+235,Orange Moyenne,97.5,Fruits et Légumes,1000 g,per 100 g,orange,47.0,0.9,0.1,0.0,12.0,9.4,2.4,0.0
+236,Pamplemousse,187.5,Fruits et Légumes,1000 g,per 100 g,grapefruit,42.0,0.8,0.1,0.0,10.7,6.9,1.6,0.0
+237,Pastèque,70.0,Fruits et Légumes,1000 g,per 100 g,watermelon,30.0,0.6,0.2,0.0,7.6,6.2,0.4,1.0
+238,Petit Oignon,357.5,Fruits et Légumes,1000 g,per 100 g,onion,40.0,1.1,0.1,0.0,9.3,4.2,1.7,4.0
+239,Petit Piment,110.0,Fruits et Légumes,1000 g,per 100 g,chili,40.0,2.0,0.4,0.1,8.0,5.1,1.5,7.0
+240,Petit Pois,200.0,Fruits et Légumes,1000 g,per 100 g,peas,81.0,5.4,0.4,0.1,14.5,5.7,5.1,5.0
+241,Piment Rouge,160.0,Fruits et Légumes,1000 g,per 100 g,chili,40.0,2.0,0.4,0.1,8.0,5.1,1.5,7.0
+242,Piment Sucette,264.0,Fruits et Légumes,1000 g,per 100 g,chili,40.0,2.0,0.4,0.1,8.0,5.1,1.5,7.0
+243,Piment Vert,130.0,Fruits et Légumes,1000 g,per 100 g,chili,40.0,2.0,0.4,0.1,8.0,5.1,1.5,7.0
+244,Poire Moyenne,337.5,Fruits et Légumes,1000 g,per 100 g,pear,57.0,0.4,0.1,0.0,15.2,9.8,3.1,1.0
+245,Poire Rouge,675.0,Fruits et Légumes,1000 g,per 100 g,pear,57.0,0.4,0.1,0.0,15.2,9.8,3.1,1.0
+246,Poireaux,66.0,Fruits et Légumes,1000 g,per 100 g,leek,61.0,1.5,0.3,0.0,14.2,3.9,1.8,20.0
+247,Poivron Rouge,160.0,Fruits et Légumes,1000 g,per 100 g,bell_pepper_red,31.0,1.0,0.3,0.0,6.0,4.2,2.1,4.0
+248,Poivron Vert,135.0,Fruits et Légumes,1000 g,per 100 g,bell_pepper_green,20.0,0.9,0.2,0.0,4.6,2.4,1.7,3.0
+249,Pomme de Terre 1kg,75.0,Fruits et Légumes,1000 g,per 100 g,potato,77.0,2.0,0.1,0.0,17.5,0.8,2.2,6.0
+250,Pomme de Terre Douce 1kg,200.0,Fruits et Légumes,1000 g,per 100 g,sweet_potato,86.0,1.6,0.1,0.0,20.1,4.2,3.0,55.0
+251,Pomme Jaune Super,562.5,Fruits et Légumes,1000 g,per 100 g,apple,52.0,0.3,0.2,0.0,13.8,10.4,2.4,1.0
+252,Pomme Light Super,975.0,Fruits et Légumes,1000 g,per 100 g,apple,52.0,0.3,0.2,0.0,13.8,10.4,2.4,1.0
+253,Pomme Rouge Moyen,209.0,Fruits et Légumes,1000 g,per 100 g,apple,52.0,0.3,0.2,0.0,13.8,10.4,2.4,1.0
+254,Prune,247.5,Fruits et Légumes,1000 g,per 100 g,plum,46.0,0.7,0.3,0.0,11.4,9.9,1.4,0.0
+255,Radis,50.0,Fruits et Légumes,1000 g,per 100 g,radish,16.0,0.7,0.1,0.0,3.4,2.0,1.6,39.0
+256,Raisin Blanc,300.0,Fruits et Légumes,1000 g,per 100 g,grapes,67.0,0.6,0.4,0.1,17.2,16.3,0.9,2.0
+257,Raisin Noir,300.0,Fruits et Légumes,1000 g,per 100 g,grapes,67.0,0.6,0.4,0.1,17.2,16.3,0.9,2.0
+258,Raisin Rouge,500.0,Fruits et Légumes,1000 g,per 100 g,grapes,67.0,0.6,0.4,0.1,17.2,16.3,0.9,2.0
+259,Salade 1kg,120.0,Fruits et Légumes,1000 g,per 100 g,lettuce,15.0,1.4,0.2,0.0,2.9,0.8,1.8,28.0
+260,Salade Frisée 1kg,150.0,Fruits et Légumes,1000 g,per 100 g,lettuce,15.0,1.4,0.2,0.0,2.9,0.8,1.8,28.0
+261,Thym,80.0,Fruits et Légumes,1000 g,per 100 g,thyme,101.0,5.6,1.7,0.5,24.5,0.0,14.0,9.0
+262,Tomate,165.0,Fruits et Légumes,1000 g,per 100 g,tomato,18.0,0.9,0.2,0.0,3.9,2.6,1.2,5.0
+263,Abricot Secs,907.5,Fruits Secs,1000 g,per 100 g,dried_apricot,241.0,3.4,0.5,0.0,62.6,53.4,7.3,10.0
+264,Amande,935.0,Fruits Secs,1000 g,per 100 g,almond,579.0,21.2,49.9,3.8,21.6,4.4,12.5,1.0
+265,Amandes Décortiquées Bio,1210.0,Fruits Secs,1000 g,per 100 g,almond,579.0,21.2,49.9,3.8,21.6,4.4,12.5,1.0
+266,Ananas Séchée,962.5,Fruits Secs,1000 g,per 100 g,dried_pineapple,349.0,1.4,0.5,0.0,89.9,71.0,3.8,18.0
+267,Bananes Séchées,962.5,Fruits Secs,1000 g,per 100 g,dried_banana,346.0,3.9,1.8,0.7,88.3,47.2,9.9,3.0
+268,Cacahuète,1200.0,Fruits Secs,1000 g,per 100 g,peanut,567.0,25.8,49.2,6.8,16.1,4.7,8.5,18.0
+269,Cacahuètes Grillées Salées Avec Peau,1200.0,Fruits Secs,1000 g,per 100 g,peanut,567.0,25.8,49.2,6.8,16.1,4.7,8.5,18.0
+270,Cacahuètes Nature Grillées Sans Peau,1200.0,Fruits Secs,1000 g,per 100 g,peanut,567.0,25.8,49.2,6.8,16.1,4.7,8.5,18.0
+271,Cerises Séchées,962.5,Fruits Secs,1000 g,per 100 g,dried_cherry,325.0,1.0,0.1,0.0,82.8,62.0,4.0,15.0
+272,Cerneau de Noix AOP du Périgord Bio,1182.5,Fruits Secs,1000 g,per 100 g,walnut,654.0,15.2,65.2,6.1,13.7,2.6,6.7,2.0
+273,Figues Secs,1200.0,Fruits Secs,1000 g,per 100 g,dried_fig,249.0,3.3,0.9,0.2,63.9,47.9,9.8,10.0
+274,Fraises Séchées,962.5,Fruits Secs,1000 g,per 100 g,dried_strawberry,325.0,1.0,0.1,0.0,82.8,62.0,4.0,15.0
+275,Glands,110.0,Fruits Secs,1000 g,per 100 g,acorn,387.0,6.2,23.9,3.1,40.8,0.0,5.4,0.0
+276,Kiwi Séché,962.5,Fruits Secs,1000 g,per 100 g,dried_kiwi,349.0,2.0,0.5,0.0,87.0,65.0,4.0,20.0
+277,Mangue Séché,962.5,Fruits Secs,1000 g,per 100 g,dried_mango,319.0,2.0,0.7,0.0,82.0,66.3,2.4,162.0
+278,Marron,330.0,Fruits Secs,1000 g,per 100 g,chestnut,245.0,3.2,2.2,0.4,53.0,10.6,8.1,3.0
+279,Mélange Apéritif Bio,1200.0,Fruits Secs,1000 g,per 100 g,mixed_nuts,600.0,18.0,52.0,5.5,22.0,5.5,7.0,10.0
+280,Mélange Etudiant Bio,1200.0,Fruits Secs,1000 g,per 100 g,mixed_nuts,600.0,18.0,52.0,5.5,22.0,5.5,7.0,10.0
+281,Noisettes Décortiquées Bio,1210.0,Fruits Secs,1000 g,per 100 g,hazelnut,628.0,14.9,60.8,4.5,16.7,4.3,9.7,0.0
+282,Noix de Cajou Bio,1200.0,Fruits Secs,1000 g,per 100 g,cashew,553.0,18.2,43.9,7.8,30.2,5.9,3.3,12.0
+283,Noix de Pécan,275.0,Fruits Secs,1000 g,per 100 g,pecan,691.0,9.2,71.9,6.2,13.9,4.0,9.6,0.0
+284,Pignons de Pin Bio,1200.0,Fruits Secs,1000 g,per 100 g,pine_nut,673.0,13.7,68.4,4.9,13.1,3.6,3.7,2.0
+285,Pistache,1200.0,Fruits Secs,1000 g,per 100 g,pistachio,560.0,20.2,45.4,5.6,27.2,7.7,10.3,1.0
+286,Pruneau Séché,577.5,Fruits Secs,1000 g,per 100 g,dried_prune,240.0,2.2,0.4,0.0,63.9,38.1,7.1,2.0
+287,Raisins Séché Blanc,550.0,Fruits Secs,1000 g,per 100 g,raisin,299.0,3.1,0.5,0.2,79.2,59.2,4.5,11.0
+288,Raisins Séché Noir,715.0,Fruits Secs,1000 g,per 100 g,raisin,299.0,3.1,0.5,0.2,79.2,59.2,4.5,11.0
+289,Farine Agrodiv 5kg,250.0,Semoulerie et Farine,5000 g,per 100 g,flour,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
+290,Farine de Blé GME 1kg,42.0,Semoulerie et Farine,1000 g,per 100 g,flour,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
+291,Farine de Mais Réginat 500 g,175.0,Semoulerie et Farine,500 g,per 100 g,flour,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
+292,Farine GMC 1kg,48.0,Semoulerie et Farine,1000 g,per 100 g,flour,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
+293,Farine LaBelle 1Kg,65.0,Semoulerie et Farine,1000 g,per 100 g,flour,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
+294,Farine Mama T150 1Kg,85.0,Semoulerie et Farine,1000 g,per 100 g,flour,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
+295,Farine Mama T150 5kg,375.0,Semoulerie et Farine,5000 g,per 100 g,flour,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
+296,Farine Mama T45 1kg,95.0,Semoulerie et Farine,1000 g,per 100 g,flour,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
+297,Farine Mama T55 10kg,440.0,Semoulerie et Farine,10000 g,per 100 g,flour,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
+298,Farine Safina 1kg,80.0,Semoulerie et Farine,1000 g,per 100 g,flour,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
+299,Farine Sim 1kg,90.0,Semoulerie et Farine,1000 g,per 100 g,flour,364.0,10.0,1.0,0.2,76.0,0.3,2.7,2.0
+300,Nounours Amidon De Mais 400g,120.0,Semoulerie et Farine,400 g,per 100 g,other,362.3157894736842,10.842105263157896,1.0,0.20000000000000004,74.73684210526316,0.3,3.2052631578947364,1.5789473684210527
+301,Semoule de Mais Réginat 800g,150.0,Semoulerie et Farine,800 g,per 100 g,semolina,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
+302,Semoule Fine Mama 1kg,95.0,Semoulerie et Farine,1000 g,per 100 g,semolina,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
+303,Semoule Fine Mama 2kg,235.0,Semoulerie et Farine,2000 g,per 100 g,semolina,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
+304,Semoule Fine Mama 5Kg,390.0,Semoulerie et Farine,5000 g,per 100 g,semolina,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
+305,Semoule Grosse Mama 1KG,100.0,Semoulerie et Farine,1000 g,per 100 g,semolina,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
+306,Semoule Grosse Mama 2kg,170.0,Semoulerie et Farine,2000 g,per 100 g,semolina,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
+307,Semoule Moyenne Mama 1kg,90.0,Semoulerie et Farine,1000 g,per 100 g,semolina,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
+308,Semoule Moyenne Mama 2kg,235.0,Semoulerie et Farine,2000 g,per 100 g,semolina,360.0,12.0,1.0,0.2,73.0,0.3,3.9,1.0
+309,Poulet,400.0,Viande,1000 g,per 100 g,poulet,165.0,31.0,3.6,1.0,0.0,0.0,0.0,74.0
+310,Boeuf,3200.0,Viande,1000 g,per 100 g,boeuf,250.0,26.0,15.0,6.0,0.0,0.0,0.0,72.0
+311,Mouton,2500.0,Viande,1000 g,per 100 g,mouton,294.0,24.5,21.0,9.0,0.0,0.0,0.0,78.0
+312,Agneau,2800.0,Viande,1000 g,per 100 g,agneau,271.0,25.0,18.5,8.5,0.0,0.0,0.0,75.0
+313,Oeuf,15.0,Viande,50 g,per 100 g,oeuf,155.0,13.0,11.0,3.3,1.1,1.1,0.0,124.0
+314,Sardine,1000.0,Poisson,1000 g,per 100 g,sardine,208.0,24.6,11.5,1.5,0.0,0.0,0.0,307.0
+315,Rouget,1500.0,Poisson,1000 g,per 100 g,rouget,109.0,18.6,3.5,0.6,0.0,0.0,0.0,65.0
+316,Daurade,1700.0,Poisson,1000 g,per 100 g,daurade,128.0,21.5,4.5,1.1,0.0,0.0,0.0,61.0
+317,Merlan,2200.0,Poisson,1000 g,per 100 g,merlan,90.0,18.0,1.3,0.2,0.0,0.0,0.0,73.0
+318,Saumon,1500.0,Poisson,1000 g,per 100 g,saumon,208.0,20.4,13.4,3.1,0.0,0.0,0.0,59.0
+319,Crevette,2500.0,Poisson,1000 g,per 100 g,crevette,99.0,24.0,0.3,0.1,0.2,0.0,0.0,111.0
+320,Huile d'olive,1200.0,Huiles et Vinaigre, 1000 ml,per 100 ml,huile_olive,884.0,0.0,100.0,13.8,0.0,0.0,0.0,2.0
+321,Miel,4500.0,Cafés et Sucres,1000 g,per 100 g,miel,304.0,0.3,0.0,0.0,82.4,82.1,0.2,4.0
+322,Yaourt nature,30.0,Produits Laitiers,100 g,per 100 g,yaourt_nature,61.0,3.5,3.3,2.1,4.7,4.7,0.0,46.0
+323,Sauce de soja,1100.0,Huiles et Vinaigre,500 ml,per 100 ml,sauce_soja,53.0,8.1,0.1,0.0,4.9,0.9,0.1,5493.0
+324,Protein powder,6800.0,Compléments alimentaires,1000 g,per 100 g,whey_blue_lab,400.0,75.0,7.0,3.0,8.0,4.0,1.0,150.0
+325,Avoine,250.0,Compléments alimentaires,1000 g,per 100 g,avoine,389.0,16.9,6.9,1.2,66.3,1.1,10.6,2.0
+326,Cannelle,1600.0,Fruits et Légumes,1000 g,per 100 g,cannelle,247.0,4.0,1.2,0.3,80.6,2.2,53.1,10.0
