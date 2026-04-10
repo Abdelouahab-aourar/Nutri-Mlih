@@ -36,8 +36,27 @@
 35,Beef Mushroom Pasta,Dinner,High-Protein,619.27,1008.2
 36,Protein peanaut butter Smoothie,Breakfast,High-Protein,280.05,603.1
 37,Chicken Black Bean Bowl,Lunch,High-Protein,153.9,1323.9
-38,Breakfast Omelette,Breakfast,breakfast,20.15,213.65
-39,Tuna Pasta,Dinner,Pasta,206.62,1058.4
-40,Coffee,Breakfast,breakfast,25.95,40.25
-41,Couscous with Vegetables,Lunch,Traditional,211.88,2896.6
-42,Chicken Rice,Dinner,Rice,172.12,1404.6
+38,Tuna Pasta,Dinner,High-Protein,254.75,1092.4
+39,Breakfast Omelette,Breakfast,Low-carb,63.05,367.3
+40,Coffee,Breakfast,Low-carb,10.0,0.1
+41,Chicken Broccoli Skillet,Dinner,Low-Carb,110.7,381.17
+42,Garlic Shrimp Bowl,Lunch,Low-Carb,399.3,253.37
+43,Spinach Chicken Plate,Dinner,Low-Carb,79.7,363.37
+44,Beef Lettuce Bowl,Lunch,Low-Carb,477.2,464.3
+45,Egg Spinach Scramble,Breakfast,Low-Carb,47.8,251.58
+46,Shrimp Broccoli Plate,Dinner,Low-Carb,434.0,280.35
+47,Chicken Olive Salad,Lunch,Low-Carb,85.96,377.4
+48,Beef Pepper Stir Fry,Dinner,Low-Carb,526.8,493.5
+49,Zucchini Chicken Pan,Lunch,Low-Carb,90.9,360.77
+50,Shrimp Spinach Bowl,Dinner,Low-Carb,394.2,262.07
+51,Egg Olive Breakfast Plate,Breakfast,Low-Carb,57.56,285.2
+52,Chicken Pepper Skillet,Dinner,Low-Carb,85.9,362.07
+53,Beef Spinach Bowl,Lunch,Low-Carb,476.0,464.05
+54,Shrimp Zucchini Stir Fry,Dinner,Low-Carb,425.2,262.6
+55,Chicken Tomato Salad,Lunch,Low-Carb,87.5,342.2
+56,Egg Broccoli Scramble,Breakfast,Low-Carb,70.8,263.78
+57,Beef Olive Lettuce Bowl,Lunch,Low-Carb,479.16,497.9
+58,Garlic Chicken Spinach,Dinner,Low-Carb,79.7,363.37
+59,Shrimp Pepper Plate,Dinner,Low-Carb,402.5,266.17
+60,Zucchini Egg Breakfast,Breakfast,Low-Carb,57.3,250.18
+61,Couscous with Vegetables,Lunch,Vegetarian,106.22,1456.9
