@@ -1,6 +1,43 @@
 ﻿RID,Name,type,Category,total_price,provided_calories
-1,Breakfast Omelette,Breakfast,breakfast,20.15,213.65
-2,Tuna Pasta,Dinner,Pasta,206.62,1058.4
-3,Coffee,Breakfast,breakfast,25.95,40.25
-4,Couscous with Vegetables,Lunch,Traditional,211.88,2896.6
-5,Chicken Rice,Dinner,Rice,172.12,1404.6
+1,Chicken Rice Bowl,Lunch,Gluten-Free,97.73,987.29
+2,Gluten-Free Omelette,Breakfast,Gluten-Free,487.59,403.59
+3,Tuna Salad Bowl,Lunch,Gluten-Free,213.99,296.81
+4,Grilled Salmon Plate,Dinner,Gluten-Free,229.3,337.34
+5,Rice Porridge,Breakfast,Gluten-Free,127.5,1538.4
+6,Beef Stir Fry,Dinner,Gluten-Free,332.89,267.02
+7,Banana Protein Smoothie,Breakfast,Gluten-Free,286.9,427.7
+8,Vegetable Soup,Dinner,Gluten-Free,87.89,1614.64
+9,Egg Fried Rice (GF),Lunch,Gluten-Free,369.59,1152.0
+10,Chicken Soup,Dinner,Gluten-Free,124.64,1707.44
+11,322 Bowl,Breakfast,Gluten-Free,145.7,357.2
+12,Shrimp Rice Bowl,Lunch,Gluten-Free,409.49,815.45
+13,Potato Omelette,Breakfast,Gluten-Free,491.23,479.74
+14,Chicken Wrap (GF),Lunch,Gluten-Free,136.71,547.8
+15,Beef Rice Bowl,Dinner,Gluten-Free,318.09,954.27
+16,Fruit Salad,Breakfast,Gluten-Free,106.35,419.8
+17,Chicken Veg Stir Fry,Dinner,Gluten-Free,90.59,310.8
+18,Rice & Egg Bowl,Lunch,Gluten-Free,348.04,898.84
+19,Protein Smooth Bowl,Breakfast,Gluten-Free,296.0,486.6
+20,Vegetable Rice Bowl,Dinner,Gluten-Free,54.09,926.6
+21,Turkey Egg Breakfast Bowl,Breakfast,High-Protein,92.82,453.52
+22,Chicken Hummus Plate,Lunch,High-Protein,111.68,650.3
+23,Cottage Cheese Berry Bowl,Breakfast,High-Protein,286.61,697.9
+24,Shrimp Avocado Salad,Lunch,High-Protein,485.27,378.3
+25,Egg White Veggie Wrap,Breakfast,High-Protein,92.29,573.2
+26,Beef Sweet Potato Skillet,Dinner,High-Protein,509.7,641.4
+27,Chicken Chickpea Bowl,Lunch,High-Protein,132.7,735.75
+28,Protein Yogurt Crunch,Breakfast,High-Protein,472.7,511.2
+29,Turkey Zucchini Stir Fry,Dinner,High-Protein,114.7,369.05
+30,Beef Egg Scramble,Breakfast,High-Protein,490.12,561.62
+31,Chicken Lentil Power Bowl,Lunch,High-Protein,121.2,773.3
+32,Shrimp Brocculi Stir Fry,Dinner,High-Protein,449.5,290.45
+33,Egg Oat Protein Pancakes,Breakfast,High-Protein,275.95,688.64
+34,Chicken Cauliflower Rice Bowl,Lunch,High-Protein,143.05,1108.0
+35,Beef Mushroom Pasta,Dinner,High-Protein,619.27,1008.2
+36,Protein peanaut butter Smoothie,Breakfast,High-Protein,280.05,603.1
+37,Chicken Black Bean Bowl,Lunch,High-Protein,153.9,1323.9
+38,Breakfast Omelette,Breakfast,breakfast,20.15,213.65
+39,Tuna Pasta,Dinner,Pasta,206.62,1058.4
+40,Coffee,Breakfast,breakfast,25.95,40.25
+41,Couscous with Vegetables,Lunch,Traditional,211.88,2896.6
+42,Chicken Rice,Dinner,Rice,172.12,1404.6
