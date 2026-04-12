@@ -33,6 +33,9 @@ class RecipeConsolidator:
                 'Price': row['Price'],
                 'Nutritional Unit': row['Nutritional Unit'],
                 'Calories (g)': row['Calories (g)'],
+                'Protein (g)': row['Protein (g)'],
+                'Total_Fat (g)': row['Total_Fat (g)'],
+                'Carbohydrates (g)': row['Carbohydrates (g)'],
                 'Quantity': row['Quantity'],
                 'Category': row['Category']
             }
@@ -130,7 +133,10 @@ class RecipeConsolidator:
                     'quantity': quantity,
                     'price': product_info['Price'],
                     'nutritional_unit': product_info['Nutritional Unit'],
-                    'calories_per_unit': product_info['Calories (g)']
+                    'calories_per_unit': product_info['Calories (g)'],
+                    'protein_per_unit': product_info['Protein (g)'],
+                    'fat_per_unit': product_info['Total_Fat (g)'],
+                    'carbs_per_unit': product_info['Carbohydrates (g)']
                 })
             
             if valid_recipe and recipe_details['ingredients']:
@@ -144,6 +150,9 @@ class RecipeConsolidator:
         for recipe in self.recipes_list:
             total_price = 0
             total_calories = 0
+            total_protein = 0
+            total_fat = 0
+            total_carbs = 0
             
             for ingredient in recipe['ingredients']:
                 # Extract numeric quantity from the quantity string (e.g., "100 g" -> 100)
@@ -170,11 +179,24 @@ class RecipeConsolidator:
                 product_nutritional_unit = float(
                     ingredient['nutritional_unit'].split()[-2]  # Extract number from "100 g/ml"
                 )
+
                 calories = ingredient['calories_per_unit'] * (qty_value / product_nutritional_unit)
                 total_calories += calories
+
+                protein = ingredient['protein_per_unit'] * (qty_value / product_nutritional_unit)
+                total_protein += protein
+
+                fat = ingredient['fat_per_unit'] * (qty_value / product_nutritional_unit)
+                total_fat += fat
+
+                carbs = ingredient['carbs_per_unit'] * (qty_value / product_nutritional_unit)
+                total_carbs += carbs
             
             recipe['total_price'] = round(total_price, 2)
             recipe['provided_calories'] = round(total_calories, 2)
+            recipe['provided_protein'] = round(total_protein, 2)
+            recipe['provided_fat'] = round(total_fat, 2)
+            recipe['provided_carbs'] = round(total_carbs, 2)
     
     def consolidate(self):
         """Main consolidation process."""
@@ -212,7 +234,10 @@ class RecipeConsolidator:
                 'type': recipe['type'],
                 'Category': recipe['category'],
                 'total_price': recipe.get('total_price', 0),
-                'provided_calories': recipe.get('provided_calories', 0)
+                'provided_calories': recipe.get('provided_calories', 0),
+                'provided_protein': recipe.get('provided_protein', 0),
+                'provided_fat': recipe.get('provided_fat', 0),
+                'provided_carbs': recipe.get('provided_carbs', 0)
             })
             
             for ingredient in recipe['ingredients']:
