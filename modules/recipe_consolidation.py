@@ -1,26 +1,10 @@
-"""
-Recipe Consolidation Module
-
-This module consolidates recipes from multiple team members into final CSV files.
-Each team member provides a CSV file with recipes specifying product PIDs directly.
-"""
-
 import pandas as pd
 import numpy as np
 from pathlib import Path
 import glob
 
-class RecipeConsolidator:
-    """Manages the consolidation of recipes from multiple sources using direct PID input."""
-    
+class RecipeConsolidator:    
     def __init__(self, products_csv="data/products.csv", recipes_input_dir="data/recipes_input"):
-        """
-        Initialize the consolidator.
-        
-        Args:
-            products_csv: Path to the products data
-            recipes_input_dir: Directory where team members place their recipe CSVs
-        """
         self.products_df = pd.read_csv(products_csv)
         self.recipes_input_dir = Path(recipes_input_dir)
         
@@ -45,12 +29,6 @@ class RecipeConsolidator:
         self.validation_warnings = []
     
     def load_individual_recipes(self):
-        """
-        Load all recipe files from the input directory.
-        Expected format: data/recipes_input/person1.csv, person2.csv, etc.
-        CSV columns: Name, Type, Category, PIDs, Quantities
-        PIDs and Quantities are semicolon-separated.
-        """
         if not self.recipes_input_dir.exists():
             self.recipes_input_dir.mkdir(exist_ok=True)
             print(f"Created {self.recipes_input_dir} directory")
@@ -73,7 +51,6 @@ class RecipeConsolidator:
                 self.validation_errors.append(f"Error reading {file}: {str(e)}")
     
     def _process_recipe_file(self, df, person_name):
-        """Process a single recipe file from a team member."""
         required_cols = ['Name', 'Type', 'Category', 'PIDs', 'Quantities']
         
         # Check required columns
@@ -143,10 +120,6 @@ class RecipeConsolidator:
                 self.recipes_list.append(recipe_details)
     
     def calculate_totals(self):
-        """
-        Calculate total_price and provided_calories for each recipe.
-        Assumes quantities are in the same unit as product quantities.
-        """
         for recipe in self.recipes_list:
             total_price = 0
             total_calories = 0
@@ -155,7 +128,6 @@ class RecipeConsolidator:
             total_carbs = 0
             
             for ingredient in recipe['ingredients']:
-                # Extract numeric quantity from the quantity string (e.g., "100 g" -> 100)
                 try:
                     qty_value = float(ingredient['quantity'].split()[0])
                 except:
@@ -164,9 +136,7 @@ class RecipeConsolidator:
                         f"in recipe '{recipe['name']}'"
                     )
                     continue
-                
-                # Calculate price (proportional to quantity)
-                # Assuming product price is per full quantity
+        
                 product_qty_value = float(
                     self.products_by_pid[ingredient['PID']]['Quantity'].split()[0]  # Extract number from "100 g/ml"
                 
@@ -175,7 +145,6 @@ class RecipeConsolidator:
                 price = ingredient['price'] * (qty_value / product_qty_value)
                 total_price += price
                 
-                # Calculate calories (per 100g/ml basis)
                 product_nutritional_unit = float(
                     ingredient['nutritional_unit'].split()[-2]  # Extract number from "100 g/ml"
                 )
@@ -199,31 +168,25 @@ class RecipeConsolidator:
             recipe['provided_carbs'] = round(total_carbs, 2)
     
     def consolidate(self):
-        """Main consolidation process."""
         print("=" * 60)
         print("RECIPE CONSOLIDATION PROCESS")
         print("=" * 60)
         
-        # Step 1: Load recipes
         print("\n1. Loading individual recipe files...")
         self.load_individual_recipes()
         print(f"   Loaded {len(self.recipes_list)} recipes")
         
-        # Step 2: Calculate totals
         print("\n2. Calculating totals for each recipe...")
         self.calculate_totals()
         
-        # Step 3: Generate output dataframes
         print("\n3. Generating output CSVs...")
         recipes_df, recipe_ingredient_df = self._generate_output_dfs()
         
-        # Step 4: Print validation report
         self._print_validation_report()
         
         return recipes_df, recipe_ingredient_df
     
     def _generate_output_dfs(self):
-        """Generate the final DataFrame objects."""
         recipes_data = []
         recipe_ingredients_data = []
         
@@ -253,7 +216,6 @@ class RecipeConsolidator:
         return recipes_df, recipe_ingredients_df
     
     def _print_validation_report(self):
-        """Print validation summary."""
         print("\n4. Validation Report:")
         print(f"   ✓ Recipes consolidated: {len(self.recipes_list)}")
         print(f"   ⚠ Warnings: {len(self.validation_warnings)}")
@@ -274,7 +236,6 @@ class RecipeConsolidator:
     def export_csv(self, recipes_df, recipe_ingredients_df, 
                    recipes_output="data/recipes.csv",
                    ingredients_output="data/recipe_ingredient.csv"):
-        """Export consolidated data to CSV files."""
         recipes_df.to_csv(recipes_output, index=False, encoding='utf-8-sig')
         recipe_ingredients_df.to_csv(ingredients_output, index=False, encoding='utf-8-sig')
         
@@ -285,16 +246,7 @@ class RecipeConsolidator:
 
 def run_consolidation(products_csv="data/products.csv", 
                      recipes_input_dir="data/recipes_input"):
-    """
-    Run the complete recipe consolidation process.
-    
-    Args:
-        products_csv: Path to products data
-        recipes_input_dir: Directory with team member recipe CSVs
-    
-    Returns:
-        Tuple of (recipes_df, recipe_ingredients_df)
-    """
+                     
     consolidator = RecipeConsolidator(products_csv, recipes_input_dir)
     recipes_df, recipe_ingredients_df = consolidator.consolidate()
     consolidator.export_csv(recipes_df, recipe_ingredients_df)
