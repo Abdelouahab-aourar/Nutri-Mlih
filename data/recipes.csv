@@ -1,222 +1,215 @@
 ﻿RID,Name,type,Category,total_price,provided_calories,provided_protein,provided_fat,provided_carbs
 1,M'semen,Breakfast,Vegetarian,58.02,822.14,20.0,21.95,136.56
-2,Sfenj,Breakfast,Vegetarian,137.59,5294.84,27.4,503.25,183.86
-3,Kesra,Breakfast,Vegetarian,81.15,1658.44,51.7,18.8,313.41
-4,Rfiss,Breakfast,Vegetarian,58.37,1328.0,44.8,2.8,271.6
-5,Tchicha,Lunch,Non-Vegetarian,223.27,927.24,45.12,24.76,130.69
-6,Chorba Hamra,Lunch,Non-Vegetarian,276.23,710.64,48.32,30.76,65.89
-7,Chorba el Djaj,Lunch,Non-Vegetarian,329.67,780.04,52.32,30.66,76.75
-8,Hlalem,Lunch,Non-Vegetarian,265.77,838.24,46.02,29.76,105.09
-9,Doubara,Lunch,Vegetarian,107.52,939.24,42.92,27.46,136.99
-10,Shorba Lham,Lunch,Non-Vegetarian,313.83,1892.24,83.92,31.96,314.29
-11,Couscous au Lait,Dinner,Vegetarian,80.4,2195.3,73.9,5.35,447.31
-12,Mesfouf,Dinner,Vegetarian,77.52,2136.42,72.0,4.6,436.71
-13,Chorba Beida,Dinner,Non-Vegetarian,314.73,2172.04,93.12,32.86,370.95
-14,Osbane,Dinner,Non-Vegetarian,351.67,1128.64,63.82,34.66,144.29
-15,M'hammer,Dinner,Non-Vegetarian,1203.86,1545.8,162.55,86.6,42.03
-16,Chakhchoukha Sahraoui,Dinner,Non-Vegetarian,309.83,883.24,52.02,31.86,105.99
-17,Djej Mechoui,Dinner,Non-Vegetarian,1193.36,1516.8,161.5,86.35,35.68
-18,Marka Hamra,Dinner,Non-Vegetarian,323.52,499.94,42.7,29.65,20.46
-19,Lham Bel Barba,Dinner,Non-Vegetarian,477.14,658.44,63.3,36.8,25.01
-20,Hchaichi,Dinner,Non-Vegetarian,317.27,826.24,47.42,29.86,93.89
-21,Chicken Rice Bowl,Lunch,Gluten-Free,97.73,987.29,60.3,7.93,162.5
-22,Gluten-Free Omelette,Breakfast,Gluten-Free,487.59,403.59,41.51,23.28,3.83
-23,Tuna Salad Bowl,Lunch,Gluten-Free,213.99,296.81,31.63,12.48,17.57
-24,Grilled Salmon Plate,Dinner,Gluten-Free,229.3,337.34,30.7,21.2,4.1
-25,Rice Porridge,Breakfast,Gluten-Free,127.5,1538.4,49.13,5.3,317.34
-26,Beef Stir Fry,Dinner,Gluten-Free,332.89,267.02,18.18,8.41,31.07
-27,Banana Protein Smoothie,Breakfast,Gluten-Free,286.9,427.7,37.48,12.55,45.72
-28,Vegetable Soup,Dinner,Gluten-Free,87.89,1614.64,55.27,6.31,328.84
-29,Egg Fried Rice (GF),Lunch,Gluten-Free,369.59,1152.0,51.73,18.1,190.63
-30,Chicken Soup,Dinner,Gluten-Free,124.64,1707.44,89.74,10.44,304.77
-31,322 Bowl,Breakfast,Gluten-Free,145.7,357.2,12.37,16.88,44.96
-32,Shrimp Rice Bowl,Lunch,Gluten-Free,409.49,815.45,48.46,2.83,146.59
-33,Potato Omelette,Breakfast,Gluten-Free,491.23,479.74,41.48,23.72,21.84
-34,Chicken Wrap (GF),Lunch,Gluten-Free,136.71,547.8,42.55,24.01,37.06
-35,Beef Rice Bowl,Dinner,Gluten-Free,318.09,954.27,29.56,9.55,185.53
-36,Fruit Salad,Breakfast,Gluten-Free,106.35,419.8,1.63,0.5,103.96
-37,Chicken Veg Stir Fry,Dinner,Gluten-Free,90.59,310.8,49.36,6.94,11.67
-38,Rice & Egg Bowl,Lunch,Gluten-Free,348.04,898.84,38.06,16.26,144.21
-39,Protein Smooth Bowl,Breakfast,Gluten-Free,296.0,486.6,37.36,11.76,61.32
-40,Vegetable Rice Bowl,Dinner,Gluten-Free,54.09,926.6,26.27,3.22,196.39
-41,Turkey Egg Breakfast Bowl,Breakfast,High-Protein,92.82,453.52,51.67,25.53,3.02
-42,Chicken Hummus Plate,Lunch,High-Protein,111.68,650.3,63.46,20.28,53.28
-43,Cottage Cheese Berry Bowl,Breakfast,High-Protein,286.61,697.9,25.79,53.55,30.87
-44,Shrimp Avocado Salad,Lunch,High-Protein,485.27,378.3,38.69,22.62,10.46
-45,Egg White Veggie Wrap,Breakfast,High-Protein,92.29,573.2,35.28,27.42,46.52
-46,Beef Sweet Potato Skillet,Dinner,High-Protein,509.7,641.4,43.66,32.76,40.58
-47,Chicken Chickpea Bowl,Lunch,High-Protein,132.7,735.75,68.04,21.59,67.78
-48,Protein Yogurt Crunch,Breakfast,High-Protein,472.7,511.2,50.37,20.28,35.56
-49,Turkey Zucchini Stir Fry,Dinner,High-Protein,114.7,369.05,49.07,15.79,5.87
-50,Beef Egg Scramble,Breakfast,High-Protein,490.12,561.62,46.7,39.25,3.86
-51,Chicken Lentil Power Bowl,Lunch,High-Protein,121.2,773.3,77.76,16.96,78.24
-52,Shrimp Brocculi Stir Fry,Dinner,High-Protein,449.5,290.45,40.49,10.96,10.36
-53,Egg Oat Protein Pancakes,Breakfast,High-Protein,275.95,688.64,54.05,24.04,65.2
-54,Chicken Cauliflower Rice Bowl,Lunch,High-Protein,143.05,1108.0,69.66,20.06,158.29
-55,Beef Mushroom Pasta,Dinner,High-Protein,619.27,1008.2,61.38,35.04,111.18
-56,Protein peanaut butter Smoothie,Breakfast,High-Protein,280.05,603.1,44.59,23.94,55.41
-57,Chicken Black Bean Bowl,Lunch,High-Protein,153.9,1323.9,81.13,17.98,207.05
-58,Couscous Tfaya,Lunch,Traditional,121.52,1510.44,58.45,25.7,262.21
-59,Chorba Frik,Lunch,Traditional,289.34,1021.19,64.08,17.27,155.09
-60,Rechta,Dinner,Traditional,233.9,1436.24,67.22,31.16,223.29
-61,Berkoukes,Lunch,Traditional,235.02,1142.64,61.62,14.36,193.09
-62,Chakhchoukha,Dinner,Traditional,261.27,1476.24,70.82,30.76,229.29
-63,Dolma,Dinner,Traditional,248.58,788.24,43.52,26.26,95.09
-64,Mhajeb,Breakfast,Traditional,37.82,219.82,2.72,15.66,20.09
-65,Bourek,Breakfast,Traditional,166.4,356.92,20.92,22.21,21.62
-66,Harira,Dinner,Traditional,284.83,786.24,52.42,31.96,78.49
-67,Lham Lahlou,Dinner,Traditional,333.92,756.34,56.85,33.9,61.41
-68,Tastira,Lunch,Traditional,46.02,268.94,2.95,15.7,33.01
-69,Couscous Seffa,Dinner,Traditional,50.57,1017.24,29.95,16.75,182.22
-70,Garantita,Breakfast,Traditional,38.5,1392.82,1.28,150.3,16.37
-71,Mderbel,Lunch,Traditional,66.02,569.44,22.6,21.5,75.91
-72,Chekhchoukha,Dinner,Traditional,261.27,1476.24,70.82,30.76,229.29
-73,Chicken Mchermel,Dinner,Traditional,354.39,872.74,61.42,35.21,84.54
-74,Tajine Zitoun,Lunch,Traditional,328.47,688.84,50.97,32.16,53.87
-75,Baghrir,Breakfast,Traditional,31.92,724.94,19.91,16.03,122.5
-76,Aiche,Dinner,Traditional,305.33,1521.24,76.82,32.86,230.19
-77,Hamsa,Lunch,Traditional,301.69,1161.4,65.22,32.56,155.68
-78,Algerian Chakchouka Eggs,Breakfast,High-Protein,76.62,336.32,20.02,23.9,12.0
-79,Mint Yogurt Honey Bowl,Breakfast,Gluten-Free,136.98,279.1,11.78,16.3,25.01
-80,Date Honey Oat Bowl,Breakfast,High-Protein,112.0,556.5,19.84,12.83,94.99
-81,Banana Almond Raib Bowl,Breakfast,High-Protein,142.7,363.32,13.06,17.54,44.25
-82,Spinach Olive Omelette,Breakfast,Low-Carb,58.02,315.49,19.79,24.51,6.88
-83,Harissa Egg Scramble,Breakfast,Low-Carb,51.6,278.29,17.55,20.6,6.33
-84,Zucchini Herb Omelette,Breakfast,Low-Carb,59.85,272.92,18.23,20.63,4.75
-85,Potato Onion Omelette DZ,Breakfast,Gluten-Free,62.1,395.28,21.26,22.58,28.12
-86,Tomato Pepper Omelette,Breakfast,Low-Carb,72.25,292.44,18.41,20.69,9.14
-87,Sardine Breakfast Plate,Breakfast,High-Protein,148.91,366.13,30.52,24.81,5.32
-88,Tuna Olive Breakfast Salad,Breakfast,High-Protein,230.35,179.05,30.22,5.17,6.38
-89,Lentil Egg Breakfast Bowl,Breakfast,High-Protein,91.05,571.14,38.46,20.35,61.5
-90,Chickpea Egg Garlic Bowl,Breakfast,High-Protein,84.6,583.71,34.24,24.62,59.01
-91,Yogurt Fig Honey Bowl,Breakfast,Gluten-Free,167.03,338.6,12.06,15.06,44.19
-92,Strawberry Yogurt Almond Cup,Breakfast,Gluten-Free,168.33,291.54,12.17,16.51,27.75
-93,Banana Peanut Protein Smoothie,Breakfast,High-Protein,285.65,502.7,37.23,21.3,44.97
-94,Orange Date Yogurt Bowl,Breakfast,Gluten-Free,130.03,297.77,9.16,7.42,53.98
-95,Oat Honey Cinnamon Porridge,Breakfast,High-Protein,108.45,515.12,21.89,14.54,76.29
-96,Oat Banana Pancake Bowl,Breakfast,High-Protein,95.0,648.8,33.17,23.71,79.08
-97,Spinach Cheese Egg Scramble,Breakfast,High-Protein,85.27,387.24,24.31,29.86,7.07
-98,Beet Yogurt Breakfast Plate,Breakfast,Gluten-Free,105.12,192.82,8.81,6.84,26.34
-99,Cucumber Olive Egg Salad,Breakfast,Low-Carb,57.12,294.29,16.58,23.15,7.12
-100,Carrot Raisin Yogurt Bowl,Breakfast,Gluten-Free,113.0,238.92,8.36,6.86,39.51
-101,Pomegranate Yogurt Crunch,Breakfast,Gluten-Free,129.34,325.86,12.65,16.32,37.22
-102,Coffee Date Almond Snack Bowl,Breakfast,Low-Carb,45.95,212.83,4.88,10.05,30.57
-103,Chickpea Tomato Breakfast Stew,Breakfast,Gluten-Free,69.6,447.68,20.19,12.7,66.96
-104,Lentil Tomato Breakfast Soup,Breakfast,Gluten-Free,65.1,421.18,23.77,8.28,66.39
-105,Merlan Egg Breakfast Plate,Breakfast,High-Protein,336.4,339.44,37.12,18.85,4.22
-106,Daurade Olive Breakfast Bowl,Breakfast,High-Protein,241.66,224.45,29.57,9.92,6.38
-107,Shrimp Egg Herb Scramble,Breakfast,High-Protein,337.35,328.22,41.93,17.39,1.56
-108,Chicken Egg Breakfast Bowl,Breakfast,High-Protein,90.4,433.28,52.52,22.64,3.98
-109,Beef Egg Breakfast Bowl,Breakfast,High-Protein,401.6,513.58,42.3,34.71,5.3
-110,Harissa Sardine Egg Plate,Breakfast,High-Protein,160.35,461.39,42.62,31.05,1.35
-111,Semolina Milk Honey Bowl,Breakfast,Gluten-Free,87.05,485.84,17.96,9.82,80.0
-112,Couscous Poulet Legumes,Lunch,High-Protein,129.35,1214.4,76.19,17.06,182.04
-113,Couscous Beef Harissa,Lunch,High-Protein,513.75,1283.75,65.38,32.73,173.65
-114,Couscous Merlan Mint,Lunch,Gluten-Free,394.4,1071.0,56.2,13.5,174.68
-115,Chickpea Chicken Bowl,Lunch,High-Protein,134.15,767.9,69.86,22.18,72.81
-116,Lentil Beef Bowl,Lunch,High-Protein,505.05,850.7,64.12,32.27,75.32
-117,Loubia Chicken Plate,Lunch,High-Protein,141.85,722.8,72.06,17.01,71.71
-118,Sardine Rice Tomato Bowl,Lunch,Gluten-Free,184.75,1023.0,44.85,26.39,147.51
-119,Tuna Rice Olive Bowl,Lunch,Gluten-Free,275.96,908.65,43.54,16.31,146.21
-120,Shrimp Rice Coriander Bowl,Lunch,High-Protein,390.1,876.84,45.83,11.72,144.58
-121,Chicken Zucchini Couscous,Lunch,High-Protein,125.6,1183.5,76.1,17.08,174.0
-122,Beef Pepper Rice Plate,Lunch,High-Protein,500.7,1111.2,49.26,32.5,148.8
-123,Mutton Chickpea Stew Bowl,Lunch,High-Protein,422.5,930.2,57.57,46.16,72.42
-124,Lamb Vegetable Couscous,Lunch,High-Protein,460.9,1344.8,65.08,37.68,181.06
-125,Daurade Tomato Olive Plate,Lunch,Gluten-Free,286.77,319.17,33.34,18.78,5.71
-126,Merlan Green Bean Plate,Lunch,Gluten-Free,366.11,254.22,29.7,10.22,10.93
-127,Chicken Spinach Rice,Lunch,High-Protein,104.9,1006.9,61.46,17.06,147.6
-128,Beef Cauliflower Skillet,Lunch,Low-Carb,470.92,492.4,39.46,31.42,11.58
-129,Chicken Broccoli Skillet DZ,Lunch,Low-Carb,110.7,381.17,50.05,15.89,8.91
-130,Shrimp Hmiss Bowl,Lunch,Low-Carb,393.77,274.1,35.39,11.07,9.39
-131,Sardine Harissa Salad,Lunch,Low-Carb,157.15,377.55,33.48,25.4,3.15
-132,Tuna Lettuce Mint Bowl,Lunch,Low-Carb,252.9,239.6,32.83,11.45,3.79
-133,Chicken Carrot Pea Bowl,Lunch,High-Protein,96.75,445.7,52.17,15.94,21.69
-134,Beef Mushroom Couscous,Lunch,High-Protein,569.18,1285.4,67.35,32.59,173.25
-135,Lentil Spinach Lunch Soup,Lunch,Gluten-Free,59.65,506.02,30.62,9.67,78.92
-136,Chickpea Tomato Coriander Bowl,Lunch,Vegetarian,80.3,561.84,25.67,17.44,79.8
-137,Chicken Olive Lemon Salad,Lunch,Low-Carb,95.06,396.95,48.4,19.51,6.96
-138,Beef Cucumber Olive Bowl,Lunch,Low-Carb,474.58,495.15,37.45,34.96,6.17
-139,Mutton Potato Onion Plate,Lunch,Gluten-Free,376.4,643.5,38.07,39.62,32.76
-140,Lamb Zucchini Pepper Bowl,Lunch,Low-Carb,433.0,513.0,37.24,36.5,8.52
-141,Sardine Chickpea Tomato Bowl,Lunch,High-Protein,204.15,790.8,55.34,31.73,72.81
-142,Tuna Chickpea Mint Salad,Lunch,High-Protein,288.2,640.4,53.98,17.85,70.19
-143,Shrimp Green Bean Rice,Lunch,High-Protein,400.45,870.0,46.79,11.71,143.38
-144,Chicken Harissa Rice Bowl,Lunch,High-Protein,103.05,987.65,58.66,16.91,144.25
-145,Chorba Frik Style Chicken,Dinner,Gluten-Free,98.0,714.6,56.3,16.32,82.08
-146,Chorba Vermicelle Beef,Dinner,High-Protein,498.1,843.5,50.2,32.73,83.61
-147,Chorba Lentil Lamb,Dinner,High-Protein,455.8,917.0,63.53,37.35,83.96
-148,Rechta-Style Chicken Bowl,Dinner,High-Protein,112.35,821.3,63.57,17.44,98.73
-149,Tlitli Chicken Dinner,Dinner,High-Protein,93.15,818.0,62.91,17.38,98.28
-150,Tlitli Beef Dinner,Dinner,High-Protein,477.1,907.6,52.66,32.86,95.22
-151,Couscous Sardine Dinner,Dinner,Gluten-Free,204.25,1223.0,63.41,27.6,173.79
-152,Couscous Shrimp Dinner,Dinner,High-Protein,414.25,1070.4,62.57,11.92,174.07
-153,Couscous Daurade Dinner,Dinner,High-Protein,319.25,1123.8,61.22,18.25,173.79
-154,Chicken Harira Style Bowl,Dinner,High-Protein,150.7,956.4,82.25,21.48,110.54
-155,Beef Loubia Stew,Dinner,High-Protein,530.9,847.5,62.53,32.65,76.9
-156,Lamb Chickpea Stew,Dinner,High-Protein,467.2,922.0,58.93,42.72,78.0
-157,Mutton Vegetable Stew,Dinner,Low-Carb,393.35,562.5,36.82,39.99,13.59
-158,Chicken Pepper Olive Pan,Dinner,Low-Carb,93.72,404.05,47.68,19.52,7.61
-159,Beef Spinach Garlic Pan,Dinner,Low-Carb,468.2,468.17,39.78,31.46,4.95
-160,Shrimp Tomato Garlic Pan,Dinner,Low-Carb,406.2,259.37,37.09,10.66,5.19
-161,Sardine Tomato Garlic Plate,Dinner,Low-Carb,171.2,402.07,35.53,26.31,4.89
-162,Merlan Lemon Olive Plate,Dinner,Low-Carb,350.67,251.77,27.5,13.86,4.06
-163,Daurade Pepper Plate,Dinner,Low-Carb,281.7,295.09,33.34,15.04,6.39
-164,Chicken Cauliflower Dinner,Dinner,Low-Carb,82.92,389.9,49.56,15.82,11.58
-165,Beef Broccoli Dinner,Dinner,Low-Carb,498.7,483.67,39.95,31.5,8.91
-166,Lamb Zucchini Dinner,Dinner,Low-Carb,422.9,512.2,37.1,36.32,9.3
-167,Mutton Carrot Pea Dinner,Dinner,Gluten-Free,386.75,609.8,39.97,39.94,21.69
-168,Chicken Lentil Spinach Dinner,Dinner,High-Protein,115.0,709.6,73.71,16.86,66.64
-169,Beef Chickpea Tomato Dinner,Dinner,High-Protein,522.15,870.4,59.76,37.78,72.81
-170,Shrimp Chickpea Harissa Dinner,Dinner,High-Protein,432.52,617.9,56.58,16.65,63.5
-171,Sardine Rice Coriander Dinner,Dinner,Gluten-Free,178.55,993.44,46.0,27.33,136.3
-172,Tuna Vegetable Couscous Dinner,Dinner,High-Protein,296.3,1095.7,61.16,12.95,180.75
-173,Chicken Green Bean Rice Dinner,Dinner,High-Protein,110.45,978.9,59.69,16.69,143.1
-174,Beef Mushroom Pepper Dinner,Dinner,Low-Carb,544.58,483.0,39.99,31.51,7.77
-175,Lamb Olive Tomato Dinner,Dinner,Low-Carb,426.17,524.25,36.09,39.93,5.71
-176,Merlan Spinach Tomato Dinner,Dinner,Low-Carb,359.45,244.92,30.71,10.53,7.11
-177,Daurade Zucchini Olive Dinner,Dinner,Low-Carb,288.12,323.37,33.97,18.96,5.92
-178,Vegetable Chakchouka,Breakfast,Vegetarian,51.35,148.47,2.82,8.83,16.09
-179,Algerian Mint Tomato Salad,Breakfast,Vegetarian,38.02,127.04,2.17,9.66,10.86
-180,Couscous aux Legumes,Lunch,Vegetarian,85.55,1007.9,31.55,12.02,190.72
-181,Chickpea Tomato Stew,Lunch,Vegetarian,86.1,587.6,26.34,17.5,85.86
-182,Lentil Vegetable Soup,Lunch,Vegetarian,77.15,533.82,29.34,9.63,86.9
-183,Rice with Peas and Carrots,Lunch,Vegetarian,65.7,858.1,18.08,11.82,168.45
-184,Zucchini Chickpea Skillet,Lunch,Vegetarian,93.0,576.8,26.76,17.72,82.44
-185,Broccoli Cauliflower Rice Bowl,Lunch,Vegetarian,78.55,811.4,17.3,12.0,159.32
-186,Spinach Lentil Bowl,Lunch,Vegetarian,72.55,514.1,30.68,11.77,76.46
-187,Potato Carrot Pea Pan,Dinner,Vegetarian,48.25,325.6,8.68,10.7,51.14
-188,Harira Vegetarienne,Dinner,Vegetarian,110.55,821.1,42.87,16.81,130.92
-189,Vegetable Couscous,Dinner,Vegetarian,77.08,1009.4,32.34,12.08,190.64
-190,Eggplant Tomato Skillet,Dinner,Vegetarian,57.0,171.5,3.24,10.6,18.81
-191,Green Bean Rice Bowl,Dinner,Vegetarian,68.06,786.7,14.85,11.55,155.32
-192,Cucumber Olive Salad,Lunch,Vegetarian,36.98,148.17,2.75,12.22,10.32
-193,Beet Carrot Salad,Breakfast,Vegetarian,22.32,132.34,2.51,6.41,18.03
-194,Loubia Tomato Bowl,Lunch,Vegetarian,94.5,538.4,28.74,11.86,84.66
-195,Stuffed Pepper Rice,Dinner,Vegetarian,77.85,811.6,14.71,11.87,159.75
-196,Chickpea Spinach Rice,Dinner,Vegetarian,98.3,1229.0,40.0,18.9,226.92
-197,Zucchini Tomato Couscous,Dinner,Vegetarian,84.8,978.0,31.16,11.94,183.48
-198,Tuna Pasta,Dinner,High-Protein,254.75,1092.4,54.3,21.9,171.9
-199,Coffee,Breakfast,Low-carb,10.0,0.1,0.01,0.0,0.0
-200,Breakfast Omelette,Breakfast,Low-carb,63.05,367.3,21.18,26.9,11.81
-201,Chicken Broccoli Skillet,Dinner,Low-Carb,110.7,381.17,50.05,15.9,8.91
-202,Garlic Shrimp Bowl,Lunch,Low-Carb,399.3,253.37,37.31,10.62,3.61
-203,Spinach Chicken Plate,Dinner,Low-Carb,79.7,363.37,49.59,15.82,4.59
-204,Beef Lettuce Bowl,Lunch,Low-Carb,477.2,464.3,38.06,31.3,5.01
-205,Egg Spinach Scramble,Breakfast,Low-Carb,47.8,251.58,18.05,18.53,4.86
-206,Shrimp Broccoli Plate,Dinner,Low-Carb,434.0,280.35,39.77,10.94,8.46
-207,Chicken Olive Salad,Lunch,Low-Carb,85.96,377.4,44.84,19.6,4.84
-208,Beef Pepper Stir Fry,Dinner,Low-Carb,526.8,493.5,40.61,32.75,5.29
-209,Zucchini Chicken Pan,Lunch,Low-Carb,90.9,360.77,48.13,15.78,4.71
-210,Shrimp Spinach Bowl,Dinner,Low-Carb,394.2,262.07,38.8,10.83,4.53
-211,Egg Olive Breakfast Plate,Breakfast,Low-Carb,57.56,285.2,16.76,22.72,5.58
-212,Chicken Pepper Skillet,Dinner,Low-Carb,85.9,362.07,47.39,15.62,5.19
-213,Beef Spinach Bowl,Lunch,Low-Carb,476.0,464.05,39.7,31.4,3.85
-214,Shrimp Zucchini Stir Fry,Dinner,Low-Carb,425.2,262.6,38.25,10.82,4.51
-215,Chicken Tomato Salad,Lunch,Low-Carb,87.5,342.2,45.06,15.32,4.66
-216,Egg Broccoli Scramble,Breakfast,Low-Carb,70.8,263.78,18.25,18.57,7.92
-217,Beef Olive Lettuce Bowl,Lunch,Low-Carb,479.16,497.9,37.98,35.58,5.13
-218,Garlic Chicken Spinach,Dinner,Low-Carb,79.7,363.37,49.59,15.82,4.59
-219,Shrimp Pepper Plate,Dinner,Low-Carb,402.5,266.17,36.99,10.71,6.09
-220,Zucchini Egg Breakfast,Breakfast,Low-Carb,57.3,250.18,16.93,18.51,5.08
-221,Couscous with Vegetables,Lunch,Vegetarian,106.22,1456.9,51.19,21.96,262.02
+2,Rfiss,Breakfast,Vegetarian,58.37,1328.0,44.8,2.8,271.6
+3,Tchicha,Lunch,Non-Vegetarian,223.27,927.24,45.12,24.76,130.69
+4,Chorba Hamra,Lunch,Non-Vegetarian,276.23,710.64,48.32,30.76,65.89
+5,Chorba el Djaj,Lunch,Non-Vegetarian,329.67,780.04,52.32,30.66,76.75
+6,Hlalem,Lunch,Non-Vegetarian,265.77,838.24,46.02,29.76,105.09
+7,Doubara,Lunch,Vegetarian,107.52,939.24,42.92,27.46,136.99
+8,Osbane,Dinner,Non-Vegetarian,351.67,1128.64,63.82,34.66,144.29
+9,M'hammer,Dinner,Non-Vegetarian,1203.86,1545.8,162.55,86.6,42.03
+10,Chakhchoukha Sahraoui,Dinner,Non-Vegetarian,309.83,883.24,52.02,31.86,105.99
+11,Djej Mechoui,Dinner,Non-Vegetarian,1193.36,1516.8,161.5,86.35,35.68
+12,Marka Hamra,Dinner,Non-Vegetarian,323.52,499.94,42.7,29.65,20.46
+13,Lham Bel Barba,Dinner,Non-Vegetarian,477.14,658.44,63.3,36.8,25.01
+14,Hchaichi,Dinner,Non-Vegetarian,317.27,826.24,47.42,29.86,93.89
+15,Chicken Rice Bowl,Lunch,Gluten-Free,97.73,987.29,60.3,7.93,162.5
+16,Gluten-Free Omelette,Breakfast,Gluten-Free,487.59,403.59,41.51,23.28,3.83
+17,Tuna Salad Bowl,Lunch,Gluten-Free,213.99,296.81,31.63,12.48,17.57
+18,Grilled Salmon Plate,Dinner,Gluten-Free,229.3,337.34,30.7,21.2,4.1
+19,Rice Porridge,Breakfast,Gluten-Free,127.5,1538.4,49.13,5.3,317.34
+20,Beef Stir Fry,Dinner,Gluten-Free,332.89,267.02,18.18,8.41,31.07
+21,Banana Protein Smoothie,Breakfast,Gluten-Free,286.9,427.7,37.48,12.55,45.72
+22,Vegetable Soup,Dinner,Gluten-Free,87.89,1614.64,55.27,6.31,328.84
+23,Egg Fried Rice (GF),Lunch,Gluten-Free,369.59,1152.0,51.73,18.1,190.63
+24,Chicken Soup,Dinner,Gluten-Free,124.64,1707.44,89.74,10.44,304.77
+25,322 Bowl,Breakfast,Gluten-Free,145.7,357.2,12.37,16.88,44.96
+26,Shrimp Rice Bowl,Lunch,Gluten-Free,409.49,815.45,48.46,2.83,146.59
+27,Potato Omelette,Breakfast,Gluten-Free,491.23,479.74,41.48,23.72,21.84
+28,Chicken Wrap (GF),Lunch,Gluten-Free,136.71,547.8,42.55,24.01,37.06
+29,Beef Rice Bowl,Dinner,Gluten-Free,318.09,954.27,29.56,9.55,185.53
+30,Fruit Salad,Breakfast,Gluten-Free,106.35,419.8,1.63,0.5,103.96
+31,Chicken Veg Stir Fry,Dinner,Gluten-Free,90.59,310.8,49.36,6.94,11.67
+32,Rice & Egg Bowl,Lunch,Gluten-Free,348.04,898.84,38.06,16.26,144.21
+33,Protein Smooth Bowl,Breakfast,Gluten-Free,296.0,486.6,37.36,11.76,61.32
+34,Vegetable Rice Bowl,Dinner,Gluten-Free,54.09,926.6,26.27,3.22,196.39
+35,Turkey Egg Breakfast Bowl,Breakfast,High-Protein,92.82,453.52,51.67,25.53,3.02
+36,Chicken Hummus Plate,Lunch,High-Protein,111.68,650.3,63.46,20.28,53.28
+37,Cottage Cheese Berry Bowl,Breakfast,High-Protein,286.61,697.9,25.79,53.55,30.87
+38,Shrimp Avocado Salad,Lunch,High-Protein,485.27,378.3,38.69,22.62,10.46
+39,Egg White Veggie Wrap,Breakfast,High-Protein,92.29,573.2,35.28,27.42,46.52
+40,Beef Sweet Potato Skillet,Dinner,High-Protein,509.7,641.4,43.66,32.76,40.58
+41,Chicken Chickpea Bowl,Lunch,High-Protein,132.7,735.75,68.04,21.59,67.78
+42,Protein Yogurt Crunch,Breakfast,High-Protein,472.7,511.2,50.37,20.28,35.56
+43,Turkey Zucchini Stir Fry,Dinner,High-Protein,114.7,369.05,49.07,15.79,5.87
+44,Beef Egg Scramble,Breakfast,High-Protein,490.12,561.62,46.7,39.25,3.86
+45,Chicken Lentil Power Bowl,Lunch,High-Protein,121.2,773.3,77.76,16.96,78.24
+46,Shrimp Brocculi Stir Fry,Dinner,High-Protein,449.5,290.45,40.49,10.96,10.36
+47,Egg Oat Protein Pancakes,Breakfast,High-Protein,275.95,688.64,54.05,24.04,65.2
+48,Chicken Cauliflower Rice Bowl,Lunch,High-Protein,143.05,1108.0,69.66,20.06,158.29
+49,Beef Mushroom Pasta,Dinner,High-Protein,619.27,1008.2,61.38,35.04,111.18
+50,Protein peanaut butter Smoothie,Breakfast,High-Protein,280.05,603.1,44.59,23.94,55.41
+51,Chicken Black Bean Bowl,Lunch,High-Protein,153.9,1323.9,81.13,17.98,207.05
+52,Couscous Tfaya,Lunch,Traditional,121.52,1510.44,58.45,25.7,262.21
+53,Chorba Frik,Lunch,Traditional,289.34,1021.19,64.08,17.27,155.09
+54,Rechta,Dinner,Traditional,233.9,1436.24,67.22,31.16,223.29
+55,Berkoukes,Lunch,Traditional,235.02,1142.64,61.62,14.36,193.09
+56,Chakhchoukha,Dinner,Traditional,261.27,1476.24,70.82,30.76,229.29
+57,Dolma,Dinner,Traditional,248.58,788.24,43.52,26.26,95.09
+58,Mhajeb,Breakfast,Traditional,37.82,219.82,2.72,15.66,20.09
+59,Bourek,Breakfast,Traditional,166.4,356.92,20.92,22.21,21.62
+60,Harira,Dinner,Traditional,284.83,786.24,52.42,31.96,78.49
+61,Lham Lahlou,Dinner,Traditional,333.92,756.34,56.85,33.9,61.41
+62,Tastira,Lunch,Traditional,46.02,268.94,2.95,15.7,33.01
+63,Couscous Seffa,Dinner,Traditional,50.57,1017.24,29.95,16.75,182.22
+64,Garantita,Breakfast,Traditional,38.5,1392.82,1.28,150.3,16.37
+65,Mderbel,Lunch,Traditional,66.02,569.44,22.6,21.5,75.91
+66,Chekhchoukha,Dinner,Traditional,261.27,1476.24,70.82,30.76,229.29
+67,Chicken Mchermel,Dinner,Traditional,354.39,872.74,61.42,35.21,84.54
+68,Tajine Zitoun,Lunch,Traditional,328.47,688.84,50.97,32.16,53.87
+69,Baghrir,Breakfast,Traditional,31.92,724.94,19.91,16.03,122.5
+70,Aiche,Dinner,Traditional,305.33,1521.24,76.82,32.86,230.19
+71,Hamsa,Lunch,Traditional,301.69,1161.4,65.22,32.56,155.68
+72,Algerian Chakchouka Eggs,Breakfast,High-Protein,76.62,336.32,20.02,23.9,12.0
+73,Mint Yogurt Honey Bowl,Breakfast,Gluten-Free,136.98,279.1,11.78,16.3,25.01
+74,Date Honey Oat Bowl,Breakfast,High-Protein,112.0,556.5,19.84,12.83,94.99
+75,Banana Almond Raib Bowl,Breakfast,High-Protein,142.7,363.32,13.06,17.54,44.25
+76,Spinach Olive Omelette,Breakfast,Low-Carb,58.02,315.49,19.79,24.51,6.88
+77,Harissa Egg Scramble,Breakfast,Low-Carb,51.6,278.29,17.55,20.6,6.33
+78,Zucchini Herb Omelette,Breakfast,Low-Carb,59.85,272.92,18.23,20.63,4.75
+79,Potato Onion Omelette DZ,Breakfast,Gluten-Free,62.1,395.28,21.26,22.58,28.12
+80,Tomato Pepper Omelette,Breakfast,Low-Carb,72.25,292.44,18.41,20.69,9.14
+81,Sardine Breakfast Plate,Breakfast,High-Protein,148.91,366.13,30.52,24.81,5.32
+82,Tuna Olive Breakfast Salad,Breakfast,High-Protein,230.35,179.05,30.22,5.17,6.38
+83,Lentil Egg Breakfast Bowl,Breakfast,High-Protein,91.05,571.14,38.46,20.35,61.5
+84,Chickpea Egg Garlic Bowl,Breakfast,High-Protein,84.6,583.71,34.24,24.62,59.01
+85,Yogurt Fig Honey Bowl,Breakfast,Gluten-Free,167.03,338.6,12.06,15.06,44.19
+86,Strawberry Yogurt Almond Cup,Breakfast,Gluten-Free,168.33,291.54,12.17,16.51,27.75
+87,Banana Peanut Protein Smoothie,Breakfast,High-Protein,285.65,502.7,37.23,21.3,44.97
+88,Orange Date Yogurt Bowl,Breakfast,Gluten-Free,130.03,297.77,9.16,7.42,53.98
+89,Oat Honey Cinnamon Porridge,Breakfast,High-Protein,108.45,515.12,21.89,14.54,76.29
+90,Oat Banana Pancake Bowl,Breakfast,High-Protein,95.0,648.8,33.17,23.71,79.08
+91,Spinach Cheese Egg Scramble,Breakfast,High-Protein,85.27,387.24,24.31,29.86,7.07
+92,Beet Yogurt Breakfast Plate,Breakfast,Gluten-Free,105.12,192.82,8.81,6.84,26.34
+93,Cucumber Olive Egg Salad,Breakfast,Low-Carb,57.12,294.29,16.58,23.15,7.12
+94,Carrot Raisin Yogurt Bowl,Breakfast,Gluten-Free,113.0,238.92,8.36,6.86,39.51
+95,Pomegranate Yogurt Crunch,Breakfast,Gluten-Free,129.34,325.86,12.65,16.32,37.22
+96,Coffee Date Almond Snack Bowl,Breakfast,Low-Carb,45.95,212.83,4.88,10.05,30.57
+97,Chickpea Tomato Breakfast Stew,Breakfast,Gluten-Free,69.6,447.68,20.19,12.7,66.96
+98,Lentil Tomato Breakfast Soup,Breakfast,Gluten-Free,65.1,421.18,23.77,8.28,66.39
+99,Merlan Egg Breakfast Plate,Breakfast,High-Protein,336.4,339.44,37.12,18.85,4.22
+100,Daurade Olive Breakfast Bowl,Breakfast,High-Protein,241.66,224.45,29.57,9.92,6.38
+101,Shrimp Egg Herb Scramble,Breakfast,High-Protein,337.35,328.22,41.93,17.39,1.56
+102,Chicken Egg Breakfast Bowl,Breakfast,High-Protein,90.4,433.28,52.52,22.64,3.98
+103,Beef Egg Breakfast Bowl,Breakfast,High-Protein,401.6,513.58,42.3,34.71,5.3
+104,Harissa Sardine Egg Plate,Breakfast,High-Protein,160.35,461.39,42.62,31.05,1.35
+105,Semolina Milk Honey Bowl,Breakfast,Gluten-Free,87.05,485.84,17.96,9.82,80.0
+106,Couscous Poulet Legumes,Lunch,High-Protein,129.35,1214.4,76.19,17.06,182.04
+107,Couscous Beef Harissa,Lunch,High-Protein,513.75,1283.75,65.38,32.73,173.65
+108,Couscous Merlan Mint,Lunch,Gluten-Free,394.4,1071.0,56.2,13.5,174.68
+109,Chickpea Chicken Bowl,Lunch,High-Protein,134.15,767.9,69.86,22.18,72.81
+110,Lentil Beef Bowl,Lunch,High-Protein,505.05,850.7,64.12,32.27,75.32
+111,Loubia Chicken Plate,Lunch,High-Protein,141.85,722.8,72.06,17.01,71.71
+112,Sardine Rice Tomato Bowl,Lunch,Gluten-Free,184.75,1023.0,44.85,26.39,147.51
+113,Tuna Rice Olive Bowl,Lunch,Gluten-Free,275.96,908.65,43.54,16.31,146.21
+114,Shrimp Rice Coriander Bowl,Lunch,High-Protein,390.1,876.84,45.83,11.72,144.58
+115,Chicken Zucchini Couscous,Lunch,High-Protein,125.6,1183.5,76.1,17.08,174.0
+116,Beef Pepper Rice Plate,Lunch,High-Protein,500.7,1111.2,49.26,32.5,148.8
+117,Mutton Chickpea Stew Bowl,Lunch,High-Protein,422.5,930.2,57.57,46.16,72.42
+118,Lamb Vegetable Couscous,Lunch,High-Protein,460.9,1344.8,65.08,37.68,181.06
+119,Daurade Tomato Olive Plate,Lunch,Gluten-Free,286.77,319.17,33.34,18.78,5.71
+120,Merlan Green Bean Plate,Lunch,Gluten-Free,366.11,254.22,29.7,10.22,10.93
+121,Chicken Spinach Rice,Lunch,High-Protein,104.9,1006.9,61.46,17.06,147.6
+122,Beef Cauliflower Skillet,Lunch,Low-Carb,470.92,492.4,39.46,31.42,11.58
+123,Chicken Broccoli Skillet DZ,Lunch,Low-Carb,110.7,381.17,50.05,15.89,8.91
+124,Shrimp Hmiss Bowl,Lunch,Low-Carb,393.77,274.1,35.39,11.07,9.39
+125,Sardine Harissa Salad,Lunch,Low-Carb,157.15,377.55,33.48,25.4,3.15
+126,Tuna Lettuce Mint Bowl,Lunch,Low-Carb,252.9,239.6,32.83,11.45,3.79
+127,Chicken Carrot Pea Bowl,Lunch,High-Protein,96.75,445.7,52.17,15.94,21.69
+128,Beef Mushroom Couscous,Lunch,High-Protein,569.18,1285.4,67.35,32.59,173.25
+129,Lentil Spinach Lunch Soup,Lunch,Gluten-Free,59.65,506.02,30.62,9.67,78.92
+130,Chickpea Tomato Coriander Bowl,Lunch,Vegetarian,80.3,561.84,25.67,17.44,79.8
+131,Chicken Olive Lemon Salad,Lunch,Low-Carb,95.06,396.95,48.4,19.51,6.96
+132,Beef Cucumber Olive Bowl,Lunch,Low-Carb,474.58,495.15,37.45,34.96,6.17
+133,Mutton Potato Onion Plate,Lunch,Gluten-Free,376.4,643.5,38.07,39.62,32.76
+134,Lamb Zucchini Pepper Bowl,Lunch,Low-Carb,433.0,513.0,37.24,36.5,8.52
+135,Sardine Chickpea Tomato Bowl,Lunch,High-Protein,204.15,790.8,55.34,31.73,72.81
+136,Tuna Chickpea Mint Salad,Lunch,High-Protein,288.2,640.4,53.98,17.85,70.19
+137,Shrimp Green Bean Rice,Lunch,High-Protein,400.45,870.0,46.79,11.71,143.38
+138,Chicken Harissa Rice Bowl,Lunch,High-Protein,103.05,987.65,58.66,16.91,144.25
+139,Chorba Frik Style Chicken,Dinner,Gluten-Free,98.0,714.6,56.3,16.32,82.08
+140,Chorba Vermicelle Beef,Dinner,High-Protein,498.1,843.5,50.2,32.73,83.61
+141,Chorba Lentil Lamb,Dinner,High-Protein,455.8,917.0,63.53,37.35,83.96
+142,Rechta-Style Chicken Bowl,Dinner,High-Protein,112.35,821.3,63.57,17.44,98.73
+143,Tlitli Chicken Dinner,Dinner,High-Protein,93.15,818.0,62.91,17.38,98.28
+144,Tlitli Beef Dinner,Dinner,High-Protein,477.1,907.6,52.66,32.86,95.22
+145,Couscous Sardine Dinner,Dinner,Gluten-Free,204.25,1223.0,63.41,27.6,173.79
+146,Couscous Shrimp Dinner,Dinner,High-Protein,414.25,1070.4,62.57,11.92,174.07
+147,Couscous Daurade Dinner,Dinner,High-Protein,319.25,1123.8,61.22,18.25,173.79
+148,Chicken Harira Style Bowl,Dinner,High-Protein,150.7,956.4,82.25,21.48,110.54
+149,Beef Loubia Stew,Dinner,High-Protein,530.9,847.5,62.53,32.65,76.9
+150,Lamb Chickpea Stew,Dinner,High-Protein,467.2,922.0,58.93,42.72,78.0
+151,Mutton Vegetable Stew,Dinner,Low-Carb,393.35,562.5,36.82,39.99,13.59
+152,Chicken Pepper Olive Pan,Dinner,Low-Carb,93.72,404.05,47.68,19.52,7.61
+153,Beef Spinach Garlic Pan,Dinner,Low-Carb,468.2,468.17,39.78,31.46,4.95
+154,Shrimp Tomato Garlic Pan,Dinner,Low-Carb,406.2,259.37,37.09,10.66,5.19
+155,Sardine Tomato Garlic Plate,Dinner,Low-Carb,171.2,402.07,35.53,26.31,4.89
+156,Merlan Lemon Olive Plate,Dinner,Low-Carb,350.67,251.77,27.5,13.86,4.06
+157,Daurade Pepper Plate,Dinner,Low-Carb,281.7,295.09,33.34,15.04,6.39
+158,Chicken Cauliflower Dinner,Dinner,Low-Carb,82.92,389.9,49.56,15.82,11.58
+159,Beef Broccoli Dinner,Dinner,Low-Carb,498.7,483.67,39.95,31.5,8.91
+160,Lamb Zucchini Dinner,Dinner,Low-Carb,422.9,512.2,37.1,36.32,9.3
+161,Mutton Carrot Pea Dinner,Dinner,Gluten-Free,386.75,609.8,39.97,39.94,21.69
+162,Chicken Lentil Spinach Dinner,Dinner,High-Protein,115.0,709.6,73.71,16.86,66.64
+163,Beef Chickpea Tomato Dinner,Dinner,High-Protein,522.15,870.4,59.76,37.78,72.81
+164,Shrimp Chickpea Harissa Dinner,Dinner,High-Protein,432.52,617.9,56.58,16.65,63.5
+165,Sardine Rice Coriander Dinner,Dinner,Gluten-Free,178.55,993.44,46.0,27.33,136.3
+166,Tuna Vegetable Couscous Dinner,Dinner,High-Protein,296.3,1095.7,61.16,12.95,180.75
+167,Chicken Green Bean Rice Dinner,Dinner,High-Protein,110.45,978.9,59.69,16.69,143.1
+168,Beef Mushroom Pepper Dinner,Dinner,Low-Carb,544.58,483.0,39.99,31.51,7.77
+169,Lamb Olive Tomato Dinner,Dinner,Low-Carb,426.17,524.25,36.09,39.93,5.71
+170,Merlan Spinach Tomato Dinner,Dinner,Low-Carb,359.45,244.92,30.71,10.53,7.11
+171,Daurade Zucchini Olive Dinner,Dinner,Low-Carb,288.12,323.37,33.97,18.96,5.92
+172,Vegetable Chakchouka,Breakfast,Vegetarian,51.35,148.47,2.82,8.83,16.09
+173,Algerian Mint Tomato Salad,Breakfast,Vegetarian,38.02,127.04,2.17,9.66,10.86
+174,Couscous aux Legumes,Lunch,Vegetarian,85.55,1007.9,31.55,12.02,190.72
+175,Chickpea Tomato Stew,Lunch,Vegetarian,86.1,587.6,26.34,17.5,85.86
+176,Lentil Vegetable Soup,Lunch,Vegetarian,77.15,533.82,29.34,9.63,86.9
+177,Rice with Peas and Carrots,Lunch,Vegetarian,65.7,858.1,18.08,11.82,168.45
+178,Zucchini Chickpea Skillet,Lunch,Vegetarian,93.0,576.8,26.76,17.72,82.44
+179,Broccoli Cauliflower Rice Bowl,Lunch,Vegetarian,78.55,811.4,17.3,12.0,159.32
+180,Spinach Lentil Bowl,Lunch,Vegetarian,72.55,514.1,30.68,11.77,76.46
+181,Potato Carrot Pea Pan,Dinner,Vegetarian,48.25,325.6,8.68,10.7,51.14
+182,Harira Vegetarienne,Dinner,Vegetarian,110.55,821.1,42.87,16.81,130.92
+183,Vegetable Couscous,Dinner,Vegetarian,77.08,1009.4,32.34,12.08,190.64
+184,Eggplant Tomato Skillet,Dinner,Vegetarian,57.0,171.5,3.24,10.6,18.81
+185,Green Bean Rice Bowl,Dinner,Vegetarian,68.06,786.7,14.85,11.55,155.32
+186,Cucumber Olive Salad,Lunch,Vegetarian,36.98,148.17,2.75,12.22,10.32
+187,Beet Carrot Salad,Breakfast,Vegetarian,22.32,132.34,2.51,6.41,18.03
+188,Loubia Tomato Bowl,Lunch,Vegetarian,94.5,538.4,28.74,11.86,84.66
+189,Stuffed Pepper Rice,Dinner,Vegetarian,77.85,811.6,14.71,11.87,159.75
+190,Chickpea Spinach Rice,Dinner,Vegetarian,98.3,1229.0,40.0,18.9,226.92
+191,Zucchini Tomato Couscous,Dinner,Vegetarian,84.8,978.0,31.16,11.94,183.48
+192,Tuna Pasta,Dinner,High-Protein,254.75,1092.4,54.3,21.9,171.9
+193,Breakfast Omelette,Breakfast,Low-carb,63.05,367.3,21.18,26.9,11.81
+194,Chicken Broccoli Skillet,Dinner,Low-Carb,110.7,381.17,50.05,15.9,8.91
+195,Garlic Shrimp Bowl,Lunch,Low-Carb,399.3,253.37,37.31,10.62,3.61
+196,Spinach Chicken Plate,Dinner,Low-Carb,79.7,363.37,49.59,15.82,4.59
+197,Beef Lettuce Bowl,Lunch,Low-Carb,477.2,464.3,38.06,31.3,5.01
+198,Egg Spinach Scramble,Breakfast,Low-Carb,47.8,251.58,18.05,18.53,4.86
+199,Shrimp Broccoli Plate,Dinner,Low-Carb,434.0,280.35,39.77,10.94,8.46
+200,Chicken Olive Salad,Lunch,Low-Carb,85.96,377.4,44.84,19.6,4.84
+201,Beef Pepper Stir Fry,Dinner,Low-Carb,526.8,493.5,40.61,32.75,5.29
+202,Zucchini Chicken Pan,Lunch,Low-Carb,90.9,360.77,48.13,15.78,4.71
+203,Shrimp Spinach Bowl,Dinner,Low-Carb,394.2,262.07,38.8,10.83,4.53
+204,Egg Olive Breakfast Plate,Breakfast,Low-Carb,57.56,285.2,16.76,22.72,5.58
+205,Chicken Pepper Skillet,Dinner,Low-Carb,85.9,362.07,47.39,15.62,5.19
+206,Beef Spinach Bowl,Lunch,Low-Carb,476.0,464.05,39.7,31.4,3.85
+207,Shrimp Zucchini Stir Fry,Dinner,Low-Carb,425.2,262.6,38.25,10.82,4.51
+208,Chicken Tomato Salad,Lunch,Low-Carb,87.5,342.2,45.06,15.32,4.66
+209,Egg Broccoli Scramble,Breakfast,Low-Carb,70.8,263.78,18.25,18.57,7.92
+210,Beef Olive Lettuce Bowl,Lunch,Low-Carb,479.16,497.9,37.98,35.58,5.13
+211,Garlic Chicken Spinach,Dinner,Low-Carb,79.7,363.37,49.59,15.82,4.59
+212,Shrimp Pepper Plate,Dinner,Low-Carb,402.5,266.17,36.99,10.71,6.09
+213,Zucchini Egg Breakfast,Breakfast,Low-Carb,57.3,250.18,16.93,18.51,5.08
+214,Couscous with Vegetables,Lunch,Vegetarian,106.22,1456.9,51.19,21.96,262.02
