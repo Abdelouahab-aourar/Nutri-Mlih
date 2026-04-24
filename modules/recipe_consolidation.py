@@ -160,7 +160,9 @@ class RecipeConsolidator:
 
                 carbs = ingredient['carbs_per_unit'] * (qty_value / product_nutritional_unit)
                 total_carbs += carbs
-            
+            total_protein *= 4
+            total_fat *= 9
+            total_carbs *= 4
             recipe['total_price'] = round(total_price, 2)
             recipe['provided_calories'] = round(total_calories, 2)
             recipe['provided_protein'] = round(total_protein, 2)
