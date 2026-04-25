@@ -1,0 +1,189 @@
+# CSP Meal Planning Algorithm - Understanding Guide
+
+## Overview
+This document explains the Constraint Satisfaction Problem (CSP) implementation for meal planning. The CSP algorithm generates 30-day meal plans that satisfy calorie, budget, and dietary preference constraints.
+
+## What is CSP?
+Constraint Satisfaction Problem (CSP) is an AI technique for finding solutions that satisfy multiple constraints. In meal planning:
+- **Variables**: Meal slots (Breakfast, Lunch, Dinner) for each day
+- **Domains**: Possible meals for each slot
+- **Constraints**: Calorie limits, budget limits, dietary preferences
+
+## Algorithm Flow
+
+### 1. Data Loading & Preparation
+```python
+# Load meal database from CSV
+meals_df = pd.read_csv('data/recipes.csv')
+meals_db = []  # List of meal dictionaries
+```
+
+Each meal contains:
+- `name`: Meal name
+- `type`: Breakfast/Lunch/Dinner
+- `kcal`: Calories
+- `cost`: Price in DZD
+- `category`: Vegetarian/Non-Vegetarian/etc.
+
+### 2. User Input Configuration
+```python
+TDEE = 2000          # Target Daily Energy Expenditure (calories)
+DAILY_BUDGET = 500   # Daily budget in DZD
+PREFERENCE = "Non-Vegetarian"  # Dietary preference
+DAYS = 30            # Number of days to plan
+```
+
+### 3. Domain Building (Step 1)
+**Purpose**: Create initial domains of possible meals for each day/slot combination.
+
+**Key Concept**: Filter meals based on individual constraints before checking combinations.
+
+```python
+def build_domains():
+    # Define slot-specific constraints based on remaining daily allowance
+    slot_constraints = {
+        "Breakfast": {"calorie_max": TDEE * 0.35, "budget_max": DAILY_BUDGET * 0.35},
+        "Lunch": {"calorie_max": TDEE * 0.45, "budget_max": DAILY_BUDGET * 0.45},
+        "Dinner": {"calorie_max": TDEE * 0.45, "budget_max": DAILY_BUDGET * 0.45}
+    }
+```
+
+**Filtering Logic**:
+1. **Meal Type**: Must match the slot (Breakfast/Lunch/Dinner)
+2. **Dietary Preference**: If user wants Vegetarian, exclude non-vegetarian meals
+3. **Individual Limits**: Each meal must not exceed its slot's calorie/budget allowance
+
+**Result**: `domains[(day, slot)]` = list of valid meals for that specific day and slot.
+
+### 4. Constraint Definition (Step 2)
+**Purpose**: Define what makes two meals "compatible" on the same day.
+
+```python
+def are_compatible(meal_a, meal_b, remaining_slot_min_kcal, remaining_slot_max_kcal):
+```
+
+**Compatibility Check**:
+1. Calculate combined calories/cost of meal_a and meal_b
+2. Determine what the third meal needs to provide to reach valid total (1800-2200 kcal)
+3. Check if there's overlap between required range and available third-meal calories
+4. Ensure combined cost leaves room for third meal
+
+### 5. AC-3 Algorithm (Step 3)
+**Purpose**: Use Arc Consistency to prune incompatible meal combinations.
+
+**What is Arc Consistency?**
+- Ensures that for every pair of variables, all combinations are possible
+- Removes values that cannot lead to valid solutions
+
+**How it works**:
+```python
+def ac3(domains):
+    slots = ["Breakfast", "Lunch", "Dinner"]
+    queue = []  # Pairs to check: (day, slot_i, slot_j)
+```
+
+**Process**:
+1. **Queue Initialization**: Add all slot pairs for each day to check
+2. **Arc Checking**: For each pair (slot_i, slot_j):
+   - Find the third slot (slot_c)
+   - For each meal in slot_i, ensure there's at least one compatible meal in slot_j
+   - That leaves room for slot_c to complete the day validly
+3. **Domain Pruning**: Remove meals from slot_i that have no compatible partners
+4. **Propagation**: If domains change, re-check affected pairs
+
+**Result**: Smaller, consistent domains where all remaining combinations can potentially work.
+
+### 6. Backtracking Search (Step 4)
+**Purpose**: Find actual meal assignments that satisfy all constraints.
+
+```python
+def backtrack_solve(domains, day):
+    slots = ["Breakfast", "Lunch", "Dinner"]
+    low = TDEE * 0.9   # 1800 kcal
+    high = TDEE * 1.1  # 2200 kcal
+```
+
+**Algorithm**:
+1. **Recursive Function**: Try to assign meals to each slot in order
+2. **Early Pruning**: Stop if current assignment exceeds budget or calorie limits
+3. **Random Selection**: Shuffle meal order for variety
+4. **Backtracking**: If assignment fails, try different meal choices
+
+**Termination**: When all slots are assigned and final constraints are met.
+
+### 7. Execution & Results
+**Timing Evaluation**: Measures performance of each phase
+**Validation**: Ensures all constraints are satisfied
+**Output**: 30-day meal plan with variety analysis
+
+## Key Concepts Explained
+
+### Remaining Daily Calorie Allowance
+The algorithm uses this concept in two ways:
+1. **Individual Filtering**: Meals can't exceed slot-specific portions (35%/45%/45%)
+2. **Compatibility Checking**: Combinations must leave room for valid completion
+
+### Arc Consistency (AC-3)
+- **Arc**: Relationship between two variables (meal slots)
+- **Consistency**: All values in domain can work with some value from related domain
+- **Pruning**: Remove values that violate consistency
+
+### Backtracking with Forward Checking
+- **Systematic Search**: Try all possibilities in organized way
+- **Forward Checking**: Look ahead to avoid dead ends
+- **Randomization**: Shuffle for meal variety
+
+## Performance Characteristics
+
+### Speed
+- **Domain Building**: ~0.003 seconds
+- **AC-3 Pruning**: ~0.045 seconds
+- **Backtracking**: ~0.003 seconds
+- **Total**: ~0.05 seconds (instantaneous)
+
+### Quality
+- **Constraint Satisfaction**: 100% (no violations)
+- **Calorie Accuracy**: Average 1895 kcal/day (target: 1800-2200)
+- **Budget Compliance**: Average 293 DZD/day (under 500 DZD limit)
+- **Variety**: 36 unique meals across 30 days
+
+## Why This Architecture?
+
+### Benefits of AC-3 + Backtracking
+1. **Preprocessing**: AC-3 reduces search space dramatically
+2. **Completeness**: Backtracking finds solutions if they exist
+3. **Efficiency**: Combined approach is much faster than pure backtracking
+4. **Flexibility**: Easy to add/modify constraints
+
+### Constraint Hierarchy
+1. **Hard Constraints**: Must satisfy (calories, budget, preferences)
+2. **Soft Constraints**: Should satisfy (variety, balance)
+
+## Common Questions
+
+### Why filter individually first?
+Prevents obviously invalid meals from entering the search space, making AC-3 more efficient.
+
+### Why AC-3 before backtracking?
+AC-3 can detect impossible problems early and prune many invalid combinations.
+
+### Why randomization in backtracking?
+Ensures meal variety instead of always picking the first valid combination.
+
+### How does it handle 30 days?
+Each day is solved independently, but the algorithm scales well due to preprocessing.
+
+## File Structure
+```
+csp.ipynb
+├── Imports & Data Loading
+├── User Input Configuration
+├── Domain Building
+├── Constraint Definition
+├── AC-3 Algorithm
+├── Backtracking Search
+├── Execution & Timing
+└── Analysis & Results
+```
+
+This CSP implementation provides an efficient, constraint-aware solution for automated meal planning that can generate valid 30-day plans instantly while maintaining nutritional balance and budget constraints.
