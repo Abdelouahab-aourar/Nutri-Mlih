@@ -139,10 +139,3 @@ When your work is ready to be merged into `main`:
 | Push your branch | `git push origin your-name` |
 | Check current status | `git status` |
 ---
- 
-### Golden rules
- 
-- ✅ Always pull from `main` before starting work.
-- ✅ Commit and push at the end of every session.
-- ❌ Never push directly to `main`.
-- ❌ Never work on someone else's branch without asking.
